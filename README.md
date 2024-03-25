@@ -40,7 +40,7 @@
 </div>
 
 <!-- ########################################## 分割 ########################################## -->
-<p align="center"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" /></p>
+<!-- <p align="center"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" /></p>-->
 <p align="center"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></p>
 <p align="center"><span id="jinrishici-sentence">正在加载今日诗词....</span></p>
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
