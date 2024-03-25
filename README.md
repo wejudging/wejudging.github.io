@@ -52,5 +52,5 @@
   <br>
   <div class="flex-container"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></div>
   <br>
-  <div class="flex-container"><span><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a>&nbsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a></span></div>
+  <div class="flex-container"><span style="font-size: 20px;"><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a>&nbsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a></span></div>
 </div>
