@@ -1,5 +1,7 @@
+<h1><a href="https://weijiajin.com/">weijiajin</a></h1>
+
 <div align="center">
-<h1 id="weijiajin">weijiajin</h1>
+
   <!-- dynamic typing effect 动态打字效果 -->
   <div>
     <a href="https://weijiajin.com">
