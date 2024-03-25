@@ -45,7 +45,7 @@
 <div class="flex-container"><span id="jinrishici-sentence">正在加载今日诗词...</span></div>
 </div>
 <div align="center"><br></div>
-<span id="giscusContainer"></span>
+<div class="flex-container"><span id="giscusContainer"></span></div>
 <div align="center"><br></div>
 <div align="center">
   <div class="flex-container"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></div>
