@@ -21,10 +21,10 @@
 <div align="center">
   <a href="https://github.com/wejudging" target="_blank"><img src="/images/github.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="mailto:wejudging@gmail.com" target="_blank"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="https://academic.weijiajin.com" target="_blank"><img src="/images/academic.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="http://chat.weijiajin.com" target="_blank"><img src="/images/chatgpt.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="https://telegra.ph" target="_blank"><img src="/images/telegraph.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="http://tv.weijiajin.com" target="_blank"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="https://xuexi.weijiajin.com" target="_blank"><img src="/images/xuexi.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
