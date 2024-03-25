@@ -18,7 +18,7 @@
 
 
 <!-- profile logo 个人资料徽标 --> 
-<div>
+<div align="center">
   <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
   <a href="mailto:wejudging@gmail.com"><img src="/images/gmail.svg" /></a>&emsp;
   <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
