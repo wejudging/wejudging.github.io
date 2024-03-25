@@ -1,6 +1,3 @@
-
-<h1 align="center"><a href="https://weijiajin.com/">weijiajin.com1</a></h1>
-
 <div align="center">
 
   
