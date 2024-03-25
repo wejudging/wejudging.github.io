@@ -1,4 +1,4 @@
-# 👋 Hi, Welcome to My Personal Homepage ![Visitor Count](https://profile-counter.glitch.me/weijiajin/count.svg)
+# 👋 Hi, Welcome to My Personal Homepage <img align='right' src="https://profile-counter.glitch.me/weijiajin/count.svg" alt="Visitor Count"/>
 
 <h2 align="left">You can reach me at :alien:</h2>
 <p align="left">
