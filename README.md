@@ -19,10 +19,10 @@
 
 <!-- profile logo 个人资料徽标 --> 
 <div align="center">
-  <a href="https://github.com/wejudging"><img src="/images/github.svg" style="width: 30px; height: 30px;" /></a>&emsp;
-  <a href="mailto:wejudging@gmail.com"><img src="/images/gmail.svg" style="width: 30px; height: 30px;" /></a>&emsp;
-  <a href="https://cloud.weijiajin.com"><img src="/images/alist.svg" style="width: 30px; height: 30px;" /></a>&emsp;
-  <a href="http://chat.weijiajin.com"><img src="/images/chatgpt.svg" style="width: 30px; height: 30px;" /></a>&emsp;
+  <a href="https://github.com/wejudging"><img src="/images/github.svg" style="width: 24px; height: 24px;" /></a>&emsp;
+  <a href="mailto:wejudging@gmail.com"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" /></a>&emsp;
+  <a href="https://cloud.weijiajin.com"><img src="/images/alist.svg" style="width: 24px; height: 24px;" /></a>&emsp;
+  <a href="http://chat.weijiajin.com"><img src="/images/chatgpt.svg" style="width: 24px; height: 24px;" /></a>&emsp;
 </div>
 
 
