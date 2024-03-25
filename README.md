@@ -38,12 +38,13 @@
     <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
-<br>
+
+<div align="center"><br></div>
+
 <div align="center">
 <div class="flex-container"><span id="jinrishici-sentence">正在加载今日诗词...</span></div>
 </div>
-<br>
-
+<div align="center"><br></div>
 <span id="giscusContainer"></span>
 <div align="center"><br></div>
 <div align="center">
