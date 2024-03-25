@@ -43,6 +43,7 @@
 <div>&nbsp;</div>
 
 <div align="center"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
+<div>&nbsp;</div>
 <p align="center"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></p>
 <div class="flex-container">
 <p align="center"><span id="jinrishici-sentence">正在加载今日诗词....</span></p>
