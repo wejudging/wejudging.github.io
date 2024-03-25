@@ -40,9 +40,8 @@
 </div>
 
 <div align="center">
-<div class="flex-container"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></div>
-<br>
 <div class="flex-container"><span id="jinrishici-sentence">正在加载今日诗词....</span></div>
+<div class="flex-container"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></div>
 </div>
 
 <script src="https://giscus.app/client.js"
