@@ -19,16 +19,15 @@
 
 <!-- profile logo 个人资料徽标 --> 
 <div align="center">
-  <a href="https://github.com/wejudging"><img src="/images/github.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="mailto:wejudging@gmail.com"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="https://cloud.weijiajin.com"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="http://chat.weijiajin.com"><img src="/images/chatgpt.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="http://tv.weijiajin.com"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="https://academic.weijiajin.com"><img src="/images/academic.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="https://servers.weijiajin.com"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="https://xuexi.weijiajin.com"><img src="/images/xuexi.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="https://github.com/wejudging" target="_blank"><img src="/images/github.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="mailto:wejudging@gmail.com" target="_blank"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="http://chat.weijiajin.com" target="_blank"><img src="/images/chatgpt.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="http://tv.weijiajin.com" target="_blank"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="https://academic.weijiajin.com" target="_blank"><img src="/images/academic.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="https://xuexi.weijiajin.com" target="_blank"><img src="/images/xuexi.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
 </div>
-
 
 
 
