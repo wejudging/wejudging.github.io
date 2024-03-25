@@ -1,7 +1,3 @@
----
-layout: default
-title: Your Page Title
----
 
 <h1 align="center"><a href="https://weijiajin.com/">weijiajin.com</a></h1>
 
