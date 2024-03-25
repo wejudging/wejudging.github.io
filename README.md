@@ -42,7 +42,7 @@
 <!-- for beauty 留个空行好看点 -->
 <div>&nbsp;</div>
 
-<p><img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></p>
 
 <div class="flex-container">
 <p><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></p>
