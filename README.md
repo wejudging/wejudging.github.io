@@ -42,7 +42,7 @@
 <!-- for beauty 留个空行好看点 -->
 <div>&nbsp;</div>
 
-<div align="center"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
+<div class="flex-container"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
 <div>&nbsp;</div>
 
 <div class="flex-container">
