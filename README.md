@@ -1,18 +1,17 @@
 <!-- 动态打字效果 -->
 <div align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;pause=1000&amp;width=435&amp;lines=print(%22Hello%2CWorld%22);你好哇%2C祝您今天愉快&amp;center=true&amp;size=27">
-/div>
+</div>
 
 
 <!-- knock code pictures 敲代码的图片 -->
-
-<div align="center">
 <div align="center">
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" height="225px" />
     <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" />
 </picture>
-/div>
+</div>
+
 
 
 <div align="center">
