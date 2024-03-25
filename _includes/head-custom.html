@@ -25,10 +25,12 @@
   flex-direction: column; /* 使子元素垂直排列 */
   }
   
-  a { 
-    display: inline-block;
-    
-    
+  a {
+  display: inline-block; /* 使<a>标签的大小适应内部内容 */
+  }
+  img {
+  display: block; /* 避免图片下方的空隙 */
+  margin: 0; /* 确保没有外边距影响尺寸 */
   }
 
 
