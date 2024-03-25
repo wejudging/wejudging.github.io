@@ -27,7 +27,6 @@
   <a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="http://tv.weijiajin.com" target="_blank"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="https://xuexi.weijiajin.com" target="_blank"><img src="/images/xuexi.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
 </div>
 
 
