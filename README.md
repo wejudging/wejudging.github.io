@@ -43,10 +43,9 @@
 <div>&nbsp;</div>
 
 <div class="flex-container">
-<img width="150%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
-<div class="flex-container">
-<img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/>
+<p><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" /></p>
+<p><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></p>
 <p><span id="jinrishici-sentence">正在加载今日诗词....</span></p>
 <p><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" width="119" height="20"/></a>&emsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg"></a></p>
-<img width="150%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
+<p><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" /></p>
 </div>
