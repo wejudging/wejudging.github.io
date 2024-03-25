@@ -22,7 +22,7 @@
   <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
   <a href="mailto:wejudging@gmail.com"><img src="/images/gmail.svg" /></a>&emsp;
   <a href="https://cloud.weijiajin.com"><img src="/images/alist.svg" /></a>&emsp;
-  <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
+  <a href="http://chat.weijiajin.com"><img src="/images/chatgpt.svg" /></a>&emsp;
  
 </div>
 
