@@ -39,6 +39,23 @@
   </picture>
 </div>
 
+<script src="https://giscus.app/client.js"
+        data-repo="wejudging/wejudging.github.io"
+        data-repo-id="R_kgDOLk0dqQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLk0dqc4CeOLN"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <!-- for beauty 留个空行好看点 -->
 <br>
 
