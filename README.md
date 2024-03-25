@@ -20,6 +20,9 @@
 <!-- profile logo 个人资料徽标 --> 
 <div>
   <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
+  <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
+  <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
+  <a href="https://github.com/wejudging"><img src="/images/github.svg" /></a>&emsp;
  
 </div>
 
