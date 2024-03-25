@@ -45,8 +45,7 @@
 <br>
 
 <span id="giscusContainer"></span>
-
-<br>
+<div align="center"><br></div>
 <div align="center">
   <div class="flex-container"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
   <br>
