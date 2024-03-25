@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "My Blog Post"
-author: John Doe
 ---
 
 
