@@ -49,5 +49,5 @@
 
   <div class="flex-container"><span id="jinrishici-sentence">正在加载今日诗词....</span></div>
 
-  <p align="center"><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" width="119" height="20"/></a>&emsp;<div class="flex-container"><a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg"></a></p>
+  <p align="center"><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg"/></a>&emsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg"></a></p>
 </div>
