@@ -44,7 +44,7 @@
 </div>
 <br>
 
-<div class="flex-container"><span id="giscusContainer">正在加载评论系统...</span></div>
+<span id="giscusContainer"></span>
 
 <br>
 <div align="center">
