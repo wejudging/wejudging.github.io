@@ -52,7 +52,7 @@
 <p align="center"><img align='right' src="https://profile-counter.glitch.me/wejudging/count.svg" alt="访客数量"/></p>
 <p align="center"><span id="jinrishici-sentence">正在加载今日诗词....</span></p>
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<p align="center"><a href="https://github.com/wejudging"><img src="/images/网站部署-GitHub-5DADE2.svg" width="119" height="20"/></a>&nbsp&nbsp<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg"></a></p>
+<p align="center"><a href="https://github.com/wejudging"><img src="/images/网站部署-GitHub-5DADE2.svg" width="119" height="20"/></a>&emsp;&emsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg"></a></p>
 
 
 <!-- ########################################## 分割 ########################################## -->
