@@ -40,27 +40,11 @@
 </div>
 
 <div align="center">
-<div class="flex-container"><span id="jinrishici-sentence">正在加载今日诗词....</span></div>
+<div class="flex-container"><span id="jinrishici-sentence">正在加载今日诗词...</span></div>
 <div class="flex-container"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></div>
 </div>
 
-<script src="https://giscus.app/client.js"
-        data-repo="wejudging/wejudging.github.io"
-        data-repo-id="R_kgDOLk0dqQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLk0dqc4CeOLN"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="zh-CN"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
-
+<div class="flex-container"><span id="giscusContainer">正在加载评论系统...</span></div>
 
 
 

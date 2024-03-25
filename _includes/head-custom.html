@@ -38,6 +38,32 @@
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script>
+  // 创建一个 script 元素
+  var scriptElement = document.createElement('script');
+
+  // 设置 script 元素的 src 属性为外部脚本地址
+  scriptElement.src = "https://giscus.app/client.js";
+  scriptElement.setAttribute('data-repo', 'wejudging/wejudging.github.io');
+  scriptElement.setAttribute('data-repo-id', 'R_kgDOLk0dqQ');
+  scriptElement.setAttribute('data-category', 'Announcements');
+  scriptElement.setAttribute('data-category-id', 'DIC_kwDOLk0dqc4CeOLN');
+  scriptElement.setAttribute('data-mapping', 'url');
+  scriptElement.setAttribute('data-strict', '0');
+  scriptElement.setAttribute('data-reactions-enabled', '1');
+  scriptElement.setAttribute('data-emit-metadata', '0');
+  scriptElement.setAttribute('data-input-position', 'top');
+  scriptElement.setAttribute('data-theme', 'light');
+  scriptElement.setAttribute('data-lang', 'zh-CN');
+  scriptElement.setAttribute('data-loading', 'lazy');
+  scriptElement.crossOrigin = 'anonymous';
+  scriptElement.async = true;
+
+  // 将 script 元素添加到 span 元素中
+  document.getElementById('giscusContainer').appendChild(scriptElement);
+</script>
+
+
 </head>
 <body>
     
