@@ -48,14 +48,12 @@
 <div align="center">
 <!-- ########################################## 分割 ########################################## -->
 <img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
+<p align="center">本站访问量</p>
+<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=wejudging&show_icons=true&hide_border=true"></p>
+<p align="center"><span id="jinrishici-sentence">正在加载今日诗词....</span></p>
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<p align="center"><a href="https://github.com/wejudging"><img src="/images/网站部署-GitHub-5DADE2.svg" width="119" height="20"/></a>&nbsp&nbsp<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg"></a></p>
 
-
-<p align="center"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></p>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <p align="center"><span id="jinrishici-sentence">正在加载今日诗词....</span></p>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <p align="center"><a href="https://hexo.io"><img src="/images/网站图片/强力驱动-Hexo-blue.svg" width="111" height="20"/></a>&nbsp&nbsp<a href="https://github.com/wejudging"><img src="/images/网站图片/网站部署-GitHub-5DADE2.svg" width="119" height="20"/></a>&nbsp&nbsp<a href="https://cloudflare.com"><img src="/images/网站图片/域名解析-CloudFlare-f38020.svg"></a></p>
-    
 
 <!-- ########################################## 分割 ########################################## -->
 <img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
