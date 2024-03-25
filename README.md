@@ -16,7 +16,7 @@
 
   <!-- for beauty 留个空行好看点 -->
   <div>&nbsp;</div>
-https://weijiajin.com/
+
   <!-- profile logo 个人资料徽标 -->
   <div>
     
