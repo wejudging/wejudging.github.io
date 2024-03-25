@@ -52,9 +52,5 @@
   <br>
   <div class="flex-container"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
   <br>
-<<<<<<< HEAD
   <div class="flex-container"><span><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a>&nbsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a></span></div>
-=======
-  <div class="flex-container"><span style="line-height: 20px;"><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a>&nbsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a></span></div>
->>>>>>> adbfac0c4279186c0e61bffb59abe87ccc4bdbaf
 </div>
