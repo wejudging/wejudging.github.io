@@ -25,6 +25,7 @@
   <a href="http://chat.weijiajin.com"><img src="/images/chatgpt.svg" style="width: 24px; height: 24px;" /></a>&emsp;
   <a href="http://tv.weijiajin.com"><img src="/images/emby.png" style="width: 24px; height: 24px;" /></a>&emsp;
   <a href="https://academic.weijiajin.com"><img src="/images/academic.png" style="width: 24px; height: 24px;" /></a>&emsp;
+  <a href="https://servers.weijiajin.com"><img src="/images/servers.svg" style="width: 24px; height: 24px;" /></a>&emsp;
 </div>
 
 
