@@ -18,7 +18,7 @@
 
 
 <!-- profile logo 个人资料徽标 --> 
-<div align="center">
+<div class="flex-container">
   <a href="https://github.com/wejudging" target="_blank"><img src="/images/github.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="mailto:wejudging@gmail.com" target="_blank"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="https://academic.weijiajin.com" target="_blank"><img src="/images/academic.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
