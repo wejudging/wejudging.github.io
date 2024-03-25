@@ -26,7 +26,7 @@
   <a href="https://telegra.ph" target="_blank"><img src="/images/telegraph.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
   <a href="http://tv.weijiajin.com" target="_blank"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
-  <a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;
+  <a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a>
 </div>
 
 
