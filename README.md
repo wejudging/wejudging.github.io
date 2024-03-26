@@ -36,7 +36,7 @@
 </div>
 
 
-<h3><p><img src="/images/telegraph.png" class="icon" />Blog</p></h3>
+# :books: Blog
 
 
 
