@@ -37,6 +37,7 @@
 
 
 ### 📚 Blog
+<div class="flex-container"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
 
 - [基于深度学习框架Tensorflow的成绩自动查询](https://blog.weijiajin.com/blog-weijiajin-com-03-26)
 
