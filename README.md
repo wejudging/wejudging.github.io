@@ -40,7 +40,7 @@
 
 - [基于深度学习框架Tensorflow的成绩自动查询](https://blog.weijiajin.com/blog-weijiajin-com-03-26)
 
-<hr>
+------
 
 
 
