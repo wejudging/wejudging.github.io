@@ -24,6 +24,10 @@
   align-items: center;
   flex-direction: column; /* 使子元素垂直排列 */
   }
+  .my-span-class {
+    display: inline-block; /* 让 span 元素根据子元素高度自动调整 */
+  }
+
   .my-span-class a {
     margin-right: 1em; /* 设置元素之间的间距为一个空格大小 */
   }
@@ -37,14 +41,7 @@
   margin: 0; /* 确保没有外边距影响尺寸 */
   }
   
-  .list_icons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    margin: 0 auto;
-  }
+ 
 </style>
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
