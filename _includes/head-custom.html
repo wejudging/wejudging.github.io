@@ -37,12 +37,13 @@
     display: inline-block; /* 让 span 元素根据子元素高度自动调整 */
     height: 20px;
   }
-  .my-span-foot p {
-    height: 20px;
+  .my-span-foot a {
+    margin-right: 1em; /* 设置元素之间的间距为一个空格大小 */
   }
-  p {
-    line-height: 20px; /* 设置行高为1.5，也可以使用像素值或百分比 */
+  .my-span-foot a:last-child {
+    margin-right: 0; /* 最后一个 <a> 元素不设置右边距 */
   }
+
   a {
   display: inline-block; /* 使<a>标签的大小适应内部内容 */
   margin: 0; 
