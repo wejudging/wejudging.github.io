@@ -14,7 +14,6 @@
     height: 24px;
     transition: transform 0.2s ease; /* 添加过渡效果 */
   }
-
   .icon:hover {
     transform: scale(1.1); /* 鼠标悬停时放大图像 */
   }
@@ -24,8 +23,6 @@
   align-items: center;
   flex-direction: column; /* 使子元素垂直排列 */
   }
-
-
   .my-span-icon {
     display: inline-block; /* 让 span 元素根据子元素高度自动调整 */
     height: 24px;
@@ -36,8 +33,6 @@
   .my-span-icon a:last-child {
     margin-right: 0; /* 最后一个 <a> 元素不设置右边距 */
   }
-
-
   .my-span-foot {
     display: inline-block; /* 让 span 元素根据子元素高度自动调整 */
     height: 20px;
@@ -48,9 +43,6 @@
   .my-span-foot a:last-child {
     margin-right: 0; /* 最后一个 <a> 元素不设置右边距 */
   }
-  
-
-
   a {
   display: inline-block; /* 使<a>标签的大小适应内部内容 */
   margin: 0; 
@@ -59,8 +51,6 @@
   display: block; /* 避免图片下方的空隙 */
   margin: 0; /* 确保没有外边距影响尺寸 */
   }
-  
- 
 </style>
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -85,14 +75,10 @@
   scriptElement.setAttribute('data-loading', 'lazy');
   scriptElement.crossOrigin = 'anonymous';
   scriptElement.async = true;
-
   // 将 script 元素添加到 span 元素中
   document.getElementById('giscusContainer').appendChild(scriptElement);
 </script>
-
-
 </head>
-<body>
-    
+<body> 
 </body>
 </html>
