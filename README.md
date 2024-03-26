@@ -18,7 +18,8 @@
 
 
 <!-- profile logo 个人资料徽标 --> 
-<div align="center" class="list_icons">
+<div align="center">
+  <span class="my-span-class">
   <a href="https://github.com/wejudging" target="_blank"><img src="/images/github.svg" style="width: 24px; height: 24px;" class="icon" /></a>
   <a href="mailto:wejudging@gmail.com" target="_blank"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" class="icon" /></a>
   <a href="https://academic.weijiajin.com" target="_blank"><img src="/images/academic.png" style="width: 24px; height: 24px;" class="icon" /></a>
@@ -27,6 +28,7 @@
   <a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a>
   <a href="http://tv.weijiajin.com" target="_blank"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a>
   <a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a>
+  </span>
 </div>
 
 
