@@ -38,10 +38,7 @@
 
 ## 📚 Blog
 
-- [基于深度学习框架Tensorflow的成绩自动查询](https://blog.weijiajin.com/blog-weijiajin-com-03-26)
-
-![Static Badge](https://img.shields.io/badge/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A1%86%E6%9E%B6Tensorflow%E7%9A%84%E6%88%90%E7%BB%A9%E8%87%AA%E5%8A%A8%E6%9F%A5%E8%AF%A2-2022-blue?link=https%3A%2F%2Fblog.weijiajin.com%2Fblog-weijiajin-com-03-26)
-
+<img alt="Static Badge" src="https://img.shields.io/badge/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A1%86%E6%9E%B6Tensorflow%E7%9A%84%E6%88%90%E7%BB%A9%E8%87%AA%E5%8A%A8%E6%9F%A5%E8%AF%A2-2022%E5%B9%B411%E6%9C%8824%E6%97%A5-blue?style=for-the-badge&logo=telegraph&link=https%3A%2F%2Fblog.weijiajin.com%2Fblog-weijiajin-com-03-26">
 
 <div class="flex-container"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
 
