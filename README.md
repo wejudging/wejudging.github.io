@@ -21,7 +21,7 @@
 <div align="center">
   <div class="flex-container">
   <span class="my-span-icon">
-  <a href="https://github.com/wejudging" target="_blank"><img src="/images/github.svg" style="width: 24px; height: 24px;" class="icon" /></a>&emsp;<a href="mailto:wejudging@gmail.com" target="_blank"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://academic.weijiajin.com" target="_blank"><img src="/images/academic.png" style="width: 24px; height: 24px;" class="icon" /></a><a href="http://chat.weijiajin.com" target="_blank"><img src="/images/chatgpt.svg" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://telegra.ph" target="_blank"><img src="/images/telegraph.png" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a><a href="http://tv.weijiajin.com" target="_blank"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a></span>
+  <a href="https://github.com/wejudging" target="_blank"><img src="/images/github.svg" style="width: 24px; height: 24px;" class="icon" /></a><a href="mailto:wejudging@gmail.com" target="_blank"><img src="/images/gmail.svg" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://academic.weijiajin.com" target="_blank"><img src="/images/academic.png" style="width: 24px; height: 24px;" class="icon" /></a><a href="http://chat.weijiajin.com" target="_blank"><img src="/images/chatgpt.svg" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://telegra.ph" target="_blank"><img src="/images/telegraph.png" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://cloud.weijiajin.com" target="_blank"><img src="/images/alist.svg" style="width: 24px; height: 24px;" class="icon" /></a><a href="http://tv.weijiajin.com" target="_blank"><img src="/images/emby.png" style="width: 24px; height: 24px;" class="icon" /></a><a href="https://servers.weijiajin.com" target="_blank"><img src="/images/servers.svg" style="width: 24px; height: 24px;" class="icon" /></a></span>
   </div>
 </div>
 
@@ -48,5 +48,5 @@
   <br>
   <div class="flex-container"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
   <br>
-  <div class="flex-container"><span class="my-span-foot"><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a>&emsp;<a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a></span></div>
+  <div class="flex-container"><span class="my-span-foot"><a href="https://github.com"><img src="/images/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a><a href="https://cloudflare.com"><img src="/images/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a></span></div>
 </div>
