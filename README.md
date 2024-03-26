@@ -38,20 +38,7 @@
 
 ## 📚 Blog
 
-<table style="margin-left: auto; margin-right: auto; width: 100%;" border="1">
-<tr><td>
-<!--左侧内容-->
-<p><a href="https://blog.weijiajin.com/blog-weijiajin-com-03-26">基于深度学习框架Tensorflow的成绩自动查询</a></p>
-<p><a href="https://blog.weijiajin.com/blog-weijiajin-com-03-26">基于深度学习框架Tensorflow的成绩自动查询</a></p>
-</td>
-<td>
-<!--右侧内容-->
-<p><a href="https://blog.weijiajin.com/blog-weijiajin-com-03-26">基于深度学习框架Tensorflow的成绩自动查询</a></p>
-<p><a href="https://blog.weijiajin.com/blog-weijiajin-com-03-26">基于深度学习框架Tensorflow的成绩自动查询</a></p>
-</td>
-</tr>
-</table>
-
+- [基于深度学习框架Tensorflow的成绩自动查询](https://blog.weijiajin.com/blog-weijiajin-com-03-26)
 
 <div class="flex-container"><img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" class="hr-image"/></div>
 
