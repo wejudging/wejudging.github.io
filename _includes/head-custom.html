@@ -24,6 +24,9 @@
   align-items: center;
   flex-direction: column; /* 使子元素垂直排列 */
   }
+  .flex-container span a {
+    margin-right: 1em; /* 设置元素之间的间距为一个空格大小 */
+  }
   
   a {
   display: inline-block; /* 使<a>标签的大小适应内部内容 */
@@ -36,9 +39,10 @@
   
   .list_icons {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     justify-content: space-around;
-    width: 50%;
+    
     margin: 0 auto;
   }
 </style>
