@@ -36,7 +36,7 @@
 </div>
 
 
-<h1><img src="/images/telegraph.png" style="width: 24px; height: 24px;" class="icon" />Blog</h1>
+<h3><p><img src="/images/telegraph.png" class="icon" />Blog</p></h3>
 
 
 
