@@ -38,7 +38,7 @@
 
 ## 📚 Blog
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="margin-left: auto; margin-right: auto; width: 100%;" border="1">
 <tr><td>
 <!--左侧内容-->
 <p><a href="https://blog.weijiajin.com/blog-weijiajin-com-03-26">基于深度学习框架Tensorflow的成绩自动查询</a></p>
