@@ -37,7 +37,7 @@
 
 
 
-<div style="text-align:center;"><h2>📚Blog</h2></div>
+<div align="center""><div class="flex-container"><h2>📚Blog</h2></div></div>
   
 <div class="div-blog" align="center">
 
