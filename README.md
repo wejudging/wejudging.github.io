@@ -41,9 +41,9 @@
   
 <div class="div-blog" align="center">
 
-<span class="span-blog"><a href="https://blog.weijiajin.com/blog-weijiajin-com-03-26" target="_blank"><img class="blog-icon" src="https://img.shields.io/badge/Mar%2026%2C%202024-基于深度学习框架Tensorflow的成绩自动查询-gray?style=for-the-badge&logo=telegraph&labelColor=blue"></a></span>
+<span class="span-blog"><a href="https://blog.weijiajin.com/shell-03-27" target="_blank"><img class="blog-icon" src="https://img.shields.io/badge/Mar 27, 2024-SHELL-gray?style=for-the-badge&logo=telegraph&labelColor=blue"></a></span>
 
-<span class="span-blog"><a href="https://blog.weijiajin.com/shell-03-27" target="_blank"><img class="blog-icon" src="https://img.shields.io/badge/Mar%2027%2C%202024-shell-gray?style=for-the-badge&logo=telegraph&labelColor=blue"></a></span>
+<span class="span-blog"><a href="https://blog.weijiajin.com/blog-weijiajin-com-03-26" target="_blank"><img class="blog-icon" src="https://img.shields.io/badge/Mar 26, 2024-Tensorflow-gray?style=for-the-badge&logo=telegraph&labelColor=blue"></a></span>
 
 </div>
 
