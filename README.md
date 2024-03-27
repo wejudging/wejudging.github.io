@@ -37,7 +37,7 @@
 
 
 
-<h2 align="center">📚Blog</h2>
+<div align="center"><h2>📚Blog</h2></div>
   
 <div class="div-blog" align="center">
 
