@@ -38,9 +38,7 @@
 
 
 <div align="center"">
-  <div class="flex-container">
-  <h2>📚Blog</h2>
-  </div>
+<h1>📚Blog</h1>
 </div>
   
 <div class="div-blog" align="center">
