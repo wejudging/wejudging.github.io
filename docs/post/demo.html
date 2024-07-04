@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -71,21 +71,21 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p>demo</p></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer">Copyright © <span id="year"></span><a href="https://wejudging.github.io"> weijiajin </a>
+    <div id="footer">Copyright © <span id="year"></span><a href="https://wejudging.github.io"> 家劲博客 </a>
 <p>
 <span id="runday"></span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a>
 </p>
 
 <script>
-if(""!=""){
+if("08/08/2016"!=""){
     var now=new Date();
-    var startSite=new Date("");
+    var startSite=new Date("08/08/2016");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("year").innerHTML=now.getFullYear();
