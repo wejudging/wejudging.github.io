@@ -15,12 +15,8 @@
     "dayTheme":"light",
     "nightTheme":"dark_colorblind",
     "urlMode":"pinyin",
-    "style":"",
-    "script":"",
-    "indexStyle":"",
-    "indexScript":"",
     "showPostSource":1,
     "rssSplit":"sentence",
     "bottomText":"转载请注明出处",
-    "needComment":1,  
+    "needComment":1
 }
