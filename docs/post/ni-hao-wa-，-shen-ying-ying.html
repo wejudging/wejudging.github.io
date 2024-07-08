@@ -23,6 +23,23 @@
 body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
 #header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
 #footer {margin-top:64px; text-align: center;font-size: small;}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* 使子元素垂直排列 */
+  align-items: center;
+  }
+.my-span-foot {
+    display: inline-block; /* 让 span 元素根据子元素高度自动调整 */
+    height: 20px;
+  }
+  .my-span-foot a {
+    margin-right: 1em; /* 设置元素之间的间距为一个空格大小 */
+  }
+  .my-span-foot a:last-child {
+    margin-right: 0; /* 最后一个 <a> 元素不设置右边距 */
+  }    
 
 </style>
 
@@ -77,11 +94,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div align="center"><span id="jinrishici-sentence">正在加载今日诗词....</span></div>
-
+    <div id="footer"><br>
 <div align="center"><img src="https://profile-counter.glitch.me/weijiajin-com/count.svg" alt="访客数量"/></div>
-
-<div align="center"><span><a href="https://github.com" target="_blank"><img src="https://weijiajin.com/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a><a href="https://cloudflare.com" target="_blank"><img src="https://weijiajin.com/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a><a href="https://meekdai.com/Gmeek.html" target="_blank"><img src="https://img.shields.io/badge/Powered%20by-Gmeek-gray?style=flat&labelColor=blue" style="max-width: 100%; height: auto;"></a></span></div>
+<br>
+<div class="flex-container"><span class="my-span-foot"><a href="https://github.com" target="_blank"><img src="https://weijiajin.com/网站部署-GitHub-5DADE2.svg" style="max-width: 100%; height: auto;"/></a><a href="https://cloudflare.com" target="_blank"><img src="https://weijiajin.com/域名解析-CloudFlare-f38020.svg" style="max-width: 100%; height: auto;"></a><a href="https://meekdai.com/Gmeek.html" target="_blank"><img src="https://img.shields.io/badge/Powered%20by-Gmeek-gray?style=flat&labelColor=blue" style="max-width: 100%; height: auto;"></a></span></div>
 
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></div>
 </body>
