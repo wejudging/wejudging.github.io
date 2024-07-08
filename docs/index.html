@@ -33,13 +33,20 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     display: inline-block; /* 让 span 元素根据子元素高度自动调整 */
     height: 20px;
   }
-  .my-span-foot a {
+.my-span-foot a {
     margin-right: 1em; /* 设置元素之间的间距为一个空格大小 */
   }
   .my-span-foot a:last-child {
     margin-right: 0; /* 最后一个 <a> 元素不设置右边距 */
   }    
-
+a {
+  display: inline-block; /* 使<a>标签的大小适应内部内容 */
+  margin: 0; 
+  }
+img {
+  display: block; /* 避免图片下方的空隙 */
+  margin: 0; /* 确保没有外边距影响尺寸 */
+  }
 </style>
 
 <style>
