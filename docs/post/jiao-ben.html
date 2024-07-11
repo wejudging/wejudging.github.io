@@ -11,31 +11,32 @@
     </script>
 <meta name="description" content="**开启root远程登录**
 
-```
+```bash
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
 systemctl restart sshd
 ```
 
 **安装docker**
-```
+```bash
 curl -fsSL https://get.docker.com | bash -s docker
 systemctl start docker
 systemctl enable docker
 ```
 
 **BBR-PLUS脚本**
-```
+```bash
 bash <(curl -Lso- https://git.io/kernel.sh)
 ```
 
 **centos关闭防火墙**
-```
+```bash
 systemctl stop firewalld
 systemctl disable firewalld
 ```
+
 **swap**
-```
+```bash
 wget https://www.moerats.com/usr/shell/swap.sh && bash swap.sh
 azure swap
 dd if=/dev/zero of=/swapfile count=4096 bs=1M
@@ -45,13 +46,15 @@ swapon /swapfile
 vi /etc/fstab
 /swapfile   none    swap    sw    0   0
 ```
+
 **myip**
-```
+```bash
 ip=$(curl -s http://myip.ipip.net)
 echo 'My public IP address is: $ip'
 ```
+
 **danate**
-```
+```bash
 wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
 bash install.sh  --port=18888 --user=weijiajin --passwd=weijiajin
 
@@ -63,39 +66,47 @@ systemctl enable sockd.service
 service sockd state
 /etc/init.d/sockd state
 ```
+
 **增加网卡**
-```
+```bash
 ifconfig eth0:1 10.0.0.5 up
 ifconfig eth0:2 10.0.0.6 up
-```。">
+```
+
+**x-ui**
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+。">
 <meta property="og:title" content="脚本">
 <meta property="og:description" content="**开启root远程登录**
 
-```
+```bash
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
 systemctl restart sshd
 ```
 
 **安装docker**
-```
+```bash
 curl -fsSL https://get.docker.com | bash -s docker
 systemctl start docker
 systemctl enable docker
 ```
 
 **BBR-PLUS脚本**
-```
+```bash
 bash <(curl -Lso- https://git.io/kernel.sh)
 ```
 
 **centos关闭防火墙**
-```
+```bash
 systemctl stop firewalld
 systemctl disable firewalld
 ```
+
 **swap**
-```
+```bash
 wget https://www.moerats.com/usr/shell/swap.sh && bash swap.sh
 azure swap
 dd if=/dev/zero of=/swapfile count=4096 bs=1M
@@ -105,13 +116,15 @@ swapon /swapfile
 vi /etc/fstab
 /swapfile   none    swap    sw    0   0
 ```
+
 **myip**
-```
+```bash
 ip=$(curl -s http://myip.ipip.net)
 echo 'My public IP address is: $ip'
 ```
+
 **danate**
-```
+```bash
 wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
 bash install.sh  --port=18888 --user=weijiajin --passwd=weijiajin
 
@@ -123,16 +136,23 @@ systemctl enable sockd.service
 service sockd state
 /etc/init.d/sockd state
 ```
+
 **增加网卡**
-```
+```bash
 ifconfig eth0:1 10.0.0.5 up
 ifconfig eth0:2 10.0.0.6 up
-```。">
+```
+
+**x-ui**
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://weijiajin.com/post/jiao-ben.html">
 <meta property="og:image" content="https://weijiajin.com/circle.svg">
 <title>脚本</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 </head>
 <style>
@@ -211,52 +231,46 @@ img {
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p><strong>开启root远程登录</strong></p>
-<pre class="notranslate"><code class="notranslate">sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
-sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
-systemctl restart sshd
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">sed -i <span class="pl-s"><span class="pl-pds">'</span>s/#PermitRootLogin prohibit-password/PermitRootLogin yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
+sed -i <span class="pl-s"><span class="pl-pds">'</span>s/PasswordAuthentication no/PasswordAuthentication yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
+systemctl restart sshd</pre></div>
 <p><strong>安装docker</strong></p>
-<pre class="notranslate"><code class="notranslate">curl -fsSL https://get.docker.com | bash -s docker
+<div class="highlight highlight-source-shell"><pre class="notranslate">curl -fsSL https://get.docker.com <span class="pl-k">|</span> bash -s docker
 systemctl start docker
-systemctl enable docker
-</code></pre>
+systemctl <span class="pl-c1">enable</span> docker</pre></div>
 <p><strong>BBR-PLUS脚本</strong></p>
-<pre class="notranslate"><code class="notranslate">bash &lt;(curl -Lso- https://git.io/kernel.sh)
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -Lso- https://git.io/kernel.sh<span class="pl-pds">)</span></span></pre></div>
 <p><strong>centos关闭防火墙</strong></p>
-<pre class="notranslate"><code class="notranslate">systemctl stop firewalld
-systemctl disable firewalld
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">systemctl stop firewalld
+systemctl disable firewalld</pre></div>
 <p><strong>swap</strong></p>
-<pre class="notranslate"><code class="notranslate">wget https://www.moerats.com/usr/shell/swap.sh &amp;&amp; bash swap.sh
+<div class="highlight highlight-source-shell"><pre class="notranslate">wget https://www.moerats.com/usr/shell/swap.sh <span class="pl-k">&amp;&amp;</span> bash swap.sh
 azure swap
 dd if=/dev/zero of=/swapfile count=4096 bs=1M
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 vi /etc/fstab
-/swapfile   none    swap    sw    0   0
-</code></pre>
+/swapfile   none    swap    sw    0   0</pre></div>
 <p><strong>myip</strong></p>
-<pre class="notranslate"><code class="notranslate">ip=$(curl -s http://myip.ipip.net)
-echo "My public IP address is: $ip"
-</code></pre>
+<div class="highlight highlight-source-shell"><pre class="notranslate">ip=<span class="pl-s"><span class="pl-pds">$(</span>curl -s http://myip.ipip.net<span class="pl-pds">)</span></span>
+<span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>My public IP address is: <span class="pl-smi">$ip</span><span class="pl-pds">"</span></span></pre></div>
 <p><strong>danate</strong></p>
-<pre class="notranslate"><code class="notranslate">wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
+<div class="highlight highlight-source-shell"><pre class="notranslate">wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
 bash install.sh  --port=18888 --user=weijiajin --passwd=weijiajin
 
 /etc/init.d/sockd adduser USERNAME PASSWORD
-sudo sed -i 's/del_uer/del_user/g' /etc/init.d/sockd
+sudo sed -i <span class="pl-s"><span class="pl-pds">'</span>s/del_uer/del_user/g<span class="pl-pds">'</span></span> /etc/init.d/sockd
 /etc/init.d/sockd deluser USERNAME
 bash install.sh --uninstall
-systemctl enable sockd.service
+systemctl <span class="pl-c1">enable</span> sockd.service
 service sockd state
-/etc/init.d/sockd state
-</code></pre>
+/etc/init.d/sockd state</pre></div>
 <p><strong>增加网卡</strong></p>
-<pre class="notranslate"><code class="notranslate">ifconfig eth0:1 10.0.0.5 up
-ifconfig eth0:2 10.0.0.6 up
-</code></pre></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate">ifconfig eth0:1 10.0.0.5 up
+ifconfig eth0:2 10.0.0.6 up</pre></div>
+<p><strong>x-ui</strong></p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh<span class="pl-pds">)</span></span></pre></div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
