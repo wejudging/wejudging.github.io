@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Thu, 11 Jul 2024 06:11:08 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>基于多模态数据与多级检索的重复缺陷报告检测方法</title><link>https://weijiajin.com/post/ji-yu-duo-mo-tai-shu-ju-yu-duo-ji-jian-suo-de-zhong-fu-que-xian-bao-gao-jian-ce-fang-fa.html</link><description>**摘  要:** 在软件工程领域,准确检测重复缺陷报告对提升缺陷管理效率及软件质量极为重要.传统方法依赖于缺陷报告的文本信息,但忽视了图片信息,这大大限制了检测的全面性和准确性.本研究提出一种基于多模态数据与多级检索的检测方法,融合信息检索和深度模型特征,增强了对多模态数据的处理.本文构建了一个包含图片的缺陷报告数据集,并开展了比较实验,包括传统文本数据集和多模态数据集.实验结果显示,加入图片数据显著提升了检测的准确度和召回率.本文方法在准确性与召回率上均优于现有技术,证实了图片数据在重复缺陷报告检测中的重要性,并为未来研究提供新视角.这项工作不仅揭示了技术提升的潜在方向,也为重复缺陷报告检测技术的探索和改进开辟了新路径.&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Thu, 11 Jul 2024 06:13:28 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>基于多模态数据与多级检索的重复缺陷报告检测方法</title><link>https://weijiajin.com/post/ji-yu-duo-mo-tai-shu-ju-yu-duo-ji-jian-suo-de-zhong-fu-que-xian-bao-gao-jian-ce-fang-fa.html</link><description>**摘  要:** 在软件工程领域,准确检测重复缺陷报告对提升缺陷管理效率及软件质量极为重要.传统方法依赖于缺陷报告的文本信息,但忽视了图片信息,这大大限制了检测的全面性和准确性.本研究提出一种基于多模态数据与多级检索的检测方法,融合信息检索和深度模型特征,增强了对多模态数据的处理.本文构建了一个包含图片的缺陷报告数据集,并开展了比较实验,包括传统文本数据集和多模态数据集.实验结果显示,加入图片数据显著提升了检测的准确度和召回率.本文方法在准确性与召回率上均优于现有技术,证实了图片数据在重复缺陷报告检测中的重要性,并为未来研究提供新视角.这项工作不仅揭示了技术提升的潜在方向,也为重复缺陷报告检测技术的探索和改进开辟了新路径.&#13;
 &#13;
 **关键词:** 多模态数据; 多级检索; 重复缺陷报告检测&#13;
 &#13;
@@ -64,11 +64,11 @@ ifconfig eth0:1 10.0.0.5 up&#13;
 ifconfig eth0:2 10.0.0.6 up&#13;
 ```。</description><guid isPermaLink="true">https://weijiajin.com/post/jiao-ben.html</guid><pubDate>Mon, 08 Jul 2024 17:00:29 +0000</pubDate></item><item><title>JetBrains</title><link>https://weijiajin.com/post/JetBrains.html</link><description>## 新账号激活&#13;
 &#13;
-1. 购买正版激活链接，打开链接后显示如下界面，点击蓝色按钮&#13;
+1.购买正版激活链接，打开链接后显示如下界面，点击蓝色按钮&#13;
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/cddc3481-2deb-4463-a472-ebd397bad414)&#13;
-2. 一直往下翻页，直到翻到最底下，右下角按钮颜色变深，点击按钮`I Accept`&#13;
+2.一直往下翻页，直到翻到最底下，右下角按钮颜色变深，点击按钮`I Accept`&#13;
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/82c8d388-49c9-442c-9757-3ae98fd08784)&#13;
-3. 登录自己的账号，即可激活成功&#13;
+3.登录自己的账号，即可激活成功&#13;
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/78e6133f-da5a-44af-a322-a7bd94c93fe4)&#13;
-4. 成功界面图&#13;
+4.成功界面图&#13;
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/1f1b5f8d-0d46-4b08-bdca-20aa190410d3)。</description><guid isPermaLink="true">https://weijiajin.com/post/JetBrains.html</guid><pubDate>Thu, 04 Jul 2024 18:34:52 +0000</pubDate></item></channel></rss>
