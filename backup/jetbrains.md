@@ -6,4 +6,4 @@
 **3.登录自己的账号(之前没注册过教育优惠),即可激活成功**
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/78e6133f-da5a-44af-a322-a7bd94c93fe4)
 **4.成功界面**
-![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/1f1b5f8d-0d46-4b08-bdca-20aa190410d3)
+![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/5ee164c8-6f20-40cc-85fc-d0203cdd4d48)
