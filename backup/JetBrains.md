@@ -1,5 +1,4 @@
-![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/dfe607b8-5f0e-4e57-81f0-5db5087f02ba)
-### 新账号激活
+## 新账号激活
 
 1. 购买正版激活链接，打开链接后显示如下界面，点击蓝色按钮
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/cddc3481-2deb-4463-a472-ebd397bad414)
