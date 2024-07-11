@@ -1,3 +1,4 @@
+### 新账号激活
 **1.打开购买的正版链接后显示如下界面,点击蓝色按钮**
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/cddc3481-2deb-4463-a472-ebd397bad414)
 **2.一直往下翻页,直到翻到最底下,右下角按钮颜色变深,点击按钮`I Accept`**
