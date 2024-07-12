@@ -77,6 +77,13 @@ ifconfig eth0:2 10.0.0.6 up
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
+**重装系统 Debain12**
+```bash
+apt install wget -y
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
+bash InstallNET.sh -debian
+```
+
 。">
 <meta property="og:title" content="shell">
 <meta property="og:description" content="**开启root远程登录**
@@ -147,6 +154,13 @@ ifconfig eth0:2 10.0.0.6 up
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
+**重装系统 Debain12**
+```bash
+apt install wget -y
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
+bash InstallNET.sh -debian
+```
+
 。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://weijiajin.com/post/shell.html">
@@ -270,7 +284,11 @@ service sockd state
 <div class="highlight highlight-source-shell"><pre class="notranslate">ifconfig eth0:1 10.0.0.5 up
 ifconfig eth0:2 10.0.0.6 up</pre></div>
 <p><strong>x-ui</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh<span class="pl-pds">)</span></span></pre></div></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh<span class="pl-pds">)</span></span></pre></div>
+<p><strong>重装系统 Debain12</strong></p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">apt install wget -y
+wget --no-check-certificate -qO InstallNET.sh <span class="pl-s"><span class="pl-pds">'</span>https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh<span class="pl-pds">'</span></span> <span class="pl-k">&amp;&amp;</span> chmod a+x InstallNET.sh
+bash InstallNET.sh -debian</pre></div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
