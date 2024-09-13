@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Fri, 12 Jul 2024 12:41:41 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>drissionpage</title><link>https://weijiajin.com/post/drissionpage.html</link><description>1。</description><guid isPermaLink="true">https://weijiajin.com/post/drissionpage.html</guid><pubDate>Wed, 10 Jul 2024 11:46:31 +0000</pubDate></item><item><title>shell</title><link>https://weijiajin.com/post/shell.html</link><description>**开启root远程登录**&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Fri, 13 Sep 2024 02:17:36 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>JetBrains重置账号</title><link>https://weijiajin.com/post/JetBrains-zhong-zhi-zhang-hao.html</link><description>### 登录账号&#13;
+![image](https://github.com/user-attachments/assets/cc3cc106-5a5e-4a59-839a-a6024c3f47bd)&#13;
+### 点击管理账号&#13;
+![image](https://github.com/user-attachments/assets/455db585-ac82-45d8-9f98-1049b2bc22b6)&#13;
+### 点击删除Jetbrains账户&#13;
+![image](https://github.com/user-attachments/assets/ce46ca24-7ece-4b31-8693-8de7af0e9f20)&#13;
+### 重新注册账号，可以使用原账户和原密码&#13;
+![image](https://github.com/user-attachments/assets/7aeb5dee-cbd9-44ff-b109-483139c9f040)&#13;
+。</description><guid isPermaLink="true">https://weijiajin.com/post/JetBrains-zhong-zhi-zhang-hao.html</guid><pubDate>Fri, 13 Sep 2024 02:07:37 +0000</pubDate></item><item><title>drissionpage</title><link>https://weijiajin.com/post/drissionpage.html</link><description>1。</description><guid isPermaLink="true">https://weijiajin.com/post/drissionpage.html</guid><pubDate>Wed, 10 Jul 2024 11:46:31 +0000</pubDate></item><item><title>shell</title><link>https://weijiajin.com/post/shell.html</link><description>**开启root远程登录**&#13;
 &#13;
 ```bash&#13;
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config&#13;
