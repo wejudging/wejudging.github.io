@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sun, 22 Sep 2024 04:44:30 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>正版MATLAB教程</title><link>https://weijiajin.com/post/zheng-ban-MATLAB-jiao-cheng.html</link><description>### MATLAB 下载&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sun, 22 Sep 2024 04:45:19 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>正版MATLAB教程</title><link>https://weijiajin.com/post/zheng-ban-MATLAB-jiao-cheng.html</link><description>### MATLAB 下载&#13;
 &#13;
 1. 浏览器打开官网 [https://ww2.mathworks.cn](https://ww2.mathworks.cn)，点击右上角登录&#13;
 ![image](https://github.com/user-attachments/assets/628995a6-178b-44f7-9863-9e934788ee58)&#13;
@@ -203,6 +203,28 @@ wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com
 bash InstallNET.sh -debian&#13;
 &#13;
 For Linux: LeitboGi0ro&#13;
+```&#13;
+&#13;
+**debian10安装docker**&#13;
+```bash&#13;
+sudo apt-get update&#13;
+sudo apt-get install \&#13;
+    apt-transport-https \&#13;
+    ca-certificates \&#13;
+    curl \&#13;
+    gnupg2 \&#13;
+    software-properties-common&#13;
+y&#13;
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg&#13;
+echo \ 'deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \&#13;
+  $(lsb_release -cs) stable' | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null&#13;
+&#13;
+sudo apt-get update&#13;
+sudo apt-get install docker-ce docker-ce-cli containerd.io&#13;
+y&#13;
+git clone https://github.com/wejudging/x-ui.git&#13;
+cd x-ui&#13;
+docker compose up -d&#13;
 ```&#13;
 &#13;
 。</description><guid isPermaLink="true">https://weijiajin.com/post/shell.html</guid><pubDate>Mon, 08 Jul 2024 17:00:29 +0000</pubDate></item><item><title>jetbrains</title><link>https://weijiajin.com/post/jetbrains.html</link><description>### 新账号激活&#13;

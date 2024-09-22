@@ -86,6 +86,28 @@ bash InstallNET.sh -debian
 For Linux: LeitboGi0ro
 ```
 
+**debian10安装docker**
+```bash
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg2 \
+    software-properties-common
+y
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo \ 'deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable' | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+y
+git clone https://github.com/wejudging/x-ui.git
+cd x-ui
+docker compose up -d
+```
+
 。">
 <meta property="og:title" content="shell">
 <meta property="og:description" content="**开启root远程登录**
@@ -163,6 +185,28 @@ wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com
 bash InstallNET.sh -debian
 
 For Linux: LeitboGi0ro
+```
+
+**debian10安装docker**
+```bash
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg2 \
+    software-properties-common
+y
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo \ 'deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable' | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+y
+git clone https://github.com/wejudging/x-ui.git
+cd x-ui
+docker compose up -d
 ```
 
 。">
@@ -294,7 +338,26 @@ ifconfig eth0:2 10.0.0.6 up</pre></div>
 wget --no-check-certificate -qO InstallNET.sh <span class="pl-s"><span class="pl-pds">'</span>https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh<span class="pl-pds">'</span></span> <span class="pl-k">&amp;&amp;</span> chmod a+x InstallNET.sh
 bash InstallNET.sh -debian
 
-For Linux: LeitboGi0ro</pre></div></div>
+For Linux: LeitboGi0ro</pre></div>
+<p><strong>debian10安装docker</strong></p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg2 \
+    software-properties-common
+y
+curl -fsSL https://download.docker.com/linux/debian/gpg <span class="pl-k">|</span> sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+<span class="pl-c1">echo</span> <span class="pl-cce">\ </span><span class="pl-s"><span class="pl-pds">"</span>deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian <span class="pl-cce">\</span></span>
+<span class="pl-s">  <span class="pl-s"><span class="pl-pds">$(</span>lsb_release -cs<span class="pl-pds">)</span></span> stable<span class="pl-pds">"</span></span> <span class="pl-k">|</span> sudo tee /etc/apt/sources.list.d/docker.list <span class="pl-k">&gt;</span> /dev/null
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+y
+git clone https://github.com/wejudging/x-ui.git
+<span class="pl-c1">cd</span> x-ui
+docker compose up -d</pre></div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
