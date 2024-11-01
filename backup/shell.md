@@ -97,3 +97,8 @@ cd x-ui
 docker compose up -d
 ```
 
+**重装系统Debain12**
+```
+curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
+bash reinstall.sh debian 12 --password password
+```
