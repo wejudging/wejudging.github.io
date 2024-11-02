@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sat, 02 Nov 2024 04:16:56 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>正版MATLAB教程</title><link>https://weijiajin.com/post/zheng-ban-MATLAB-jiao-cheng.html</link><description>### MATLAB 下载&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sat, 02 Nov 2024 04:25:36 +0000</lastBuildDate><managingEditor>weijiajin</managingEditor><ttl>60</ttl><webMaster>weijiajin</webMaster><item><title>正版MATLAB教程</title><link>https://weijiajin.com/post/zheng-ban-MATLAB-jiao-cheng.html</link><description>### MATLAB 下载&#13;
 &#13;
 1. 浏览器打开官网 [https://ww2.mathworks.cn](https://ww2.mathworks.cn)，点击右上角登录&#13;
 ![image](https://github.com/user-attachments/assets/628995a6-178b-44f7-9863-9e934788ee58)&#13;
@@ -131,7 +131,7 @@ https://account.jetbrains.com/profile-details。</description><guid isPermaLink=
 ### 重新注册账号，可以使用原账户和原密码&#13;
 ![image](https://github.com/user-attachments/assets/7aeb5dee-cbd9-44ff-b109-483139c9f040)。</description><guid isPermaLink="true">https://weijiajin.com/post/JetBrains-zhong-zhi-zhang-hao.html</guid><pubDate>Fri, 13 Sep 2024 02:07:37 +0000</pubDate></item><item><title>DrissionPage</title><link>https://weijiajin.com/post/DrissionPage.html</link><description>### ✨️ 概述&#13;
 &#13;
-DrissionPage 是一个基于 python 的网页自动化工具。</description><guid isPermaLink="true">https://weijiajin.com/post/DrissionPage.html</guid><pubDate>Wed, 10 Jul 2024 11:46:31 +0000</pubDate></item><item><title>shell</title><link>https://weijiajin.com/post/shell.html</link><description>**开启root远程登录**&#13;
+DrissionPage 是一个基于 python 的网页自动化工具。</description><guid isPermaLink="true">https://weijiajin.com/post/DrissionPage.html</guid><pubDate>Wed, 10 Jul 2024 11:46:31 +0000</pubDate></item><item><title>shell</title><link>https://weijiajin.com/post/shell.html</link><description>**开启root远程登录2**&#13;
 &#13;
 ```bash&#13;
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config&#13;
@@ -235,6 +235,7 @@ docker compose up -d&#13;
 curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_&#13;
 bash reinstall.sh debian 12 --password password&#13;
 ```&#13;
+&#13;
 。</description><guid isPermaLink="true">https://weijiajin.com/post/shell.html</guid><pubDate>Mon, 08 Jul 2024 17:00:29 +0000</pubDate></item><item><title>jetbrains</title><link>https://weijiajin.com/post/jetbrains.html</link><description>### 新账号激活&#13;
 **1.打开购买的正版链接后显示如下界面,点击蓝色按钮**&#13;
 ![image](https://github.com/wejudging/wejudging.github.io/assets/39000767/cddc3481-2deb-4463-a472-ebd397bad414)&#13;

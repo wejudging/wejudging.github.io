@@ -1,4 +1,4 @@
-**开启root远程登录**
+**开启root远程登录2**
 
 ```bash
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
@@ -102,3 +102,4 @@ docker compose up -d
 curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
 bash reinstall.sh debian 12 --password password
 ```
+
