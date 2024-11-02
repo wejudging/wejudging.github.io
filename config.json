@@ -24,6 +24,7 @@
     "rssSplit":"sentence",
     "needComment":1,
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
+    "indexScript":"<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"
 
 }
