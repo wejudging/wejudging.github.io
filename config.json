@@ -3,7 +3,7 @@
     "avatarUrl":"https://weijiajin.com/circle.svg",
     "subTitle":"你好哇，祝你今天愉快。",
     "faviconUrl":"https://weijiajin.com/circle.svg",
-    "GMEEK_VERSION":"last",
+    "GMEEK_VERSION":"Latest",
     "homeUrl":"https://weijiajin.com",
     "email":"wejudging@gmail.com",
     "startSite":"09/01/2016",
@@ -23,9 +23,6 @@
     "rssSplit":"sentence",
     "needComment":1,
     "allHead":"<script src='https://weijiajin.com/Gmeek/plugins/GmeekVercount.js'></script>",
-    "script":"<script src='https://weijiajin.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
-
-
-    
+    "script":"<script src='https://weijiajin.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"
 
 }
