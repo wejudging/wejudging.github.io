@@ -1,5 +1,6 @@
 ### ✨️ 概述
-DrissionPage® 是一个基于 python 的网页自动化工具。
+
+DrissionPage 是一个基于 python 的网页自动化工具。
 
 它既能控制浏览器，也能收发数据包，还能把两者合而为一。
 
