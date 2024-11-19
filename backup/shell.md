@@ -103,3 +103,13 @@ curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh 
 bash reinstall.sh debian 12 --password password
 ```
 
+**下载新的yum源**
+```
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos6_base.repo
+```
+
+**清除yum缓存并更新**
+```
+yum clean all
+yum makecache
+```

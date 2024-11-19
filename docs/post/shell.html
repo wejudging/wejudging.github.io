@@ -115,6 +115,16 @@ curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh 
 bash reinstall.sh debian 12 --password password
 ```
 
+**下载新的yum源**
+```
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos6_base.repo
+```
+
+**清除yum缓存并更新**
+```
+yum clean all
+yum makecache
+```
 。">
 <meta property="og:title" content="shell">
 <meta property="og:description" content="**开启root远程登录2**
@@ -222,6 +232,16 @@ curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh 
 bash reinstall.sh debian 12 --password password
 ```
 
+**下载新的yum源**
+```
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos6_base.repo
+```
+
+**清除yum缓存并更新**
+```
+yum clean all
+yum makecache
+```
 。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://weijiajin.com/post/shell.html">
@@ -362,6 +382,13 @@ docker compose up -d</pre></div>
 <p><strong>重装系统Debain12</strong></p>
 <pre class="notranslate"><code class="notranslate">curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
 bash reinstall.sh debian 12 --password password
+</code></pre>
+<p><strong>下载新的yum源</strong></p>
+<pre class="notranslate"><code class="notranslate">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos6_base.repo
+</code></pre>
+<p><strong>清除yum缓存并更新</strong></p>
+<pre class="notranslate"><code class="notranslate">yum clean all
+yum makecache
 </code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
