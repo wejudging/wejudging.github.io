@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    <script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>
+    <link rel="icon" href="https://weijiajin.com/circle.svg"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="### 一、什么是自动驾驶？
+
+自动驾驶（Autonomous Driving）指的是利用先进的传感器、计算机视觉、人工智能和自动化控制技术，让汽车能够在无需人工干预的情况下自主行驶。">
+<meta property="og:title" content="自动驾驶">
+<meta property="og:description" content="### 一、什么是自动驾驶？
+
+自动驾驶（Autonomous Driving）指的是利用先进的传感器、计算机视觉、人工智能和自动化控制技术，让汽车能够在无需人工干预的情况下自主行驶。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://weijiajin.com/post/zi-dong-jia-shi.html">
+<meta property="og:image" content="https://weijiajin.com/circle.svg">
+<title>自动驾驶</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">自动驾驶</h1>
+<div class="title-right">
+    <a href="https://weijiajin.com" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/wejudging/wejudging.github.io/issues/8" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h3>一、什么是自动驾驶？</h3>
+<p>自动驾驶（Autonomous Driving）指的是利用先进的传感器、计算机视觉、人工智能和自动化控制技术，让汽车能够在无需人工干预的情况下自主行驶。简单来说，自动驾驶就是让车辆在不依赖驾驶员操作的情况下，能够感知路况、做出决策并执行驾驶任务。</p>
+<p>自动驾驶技术根据自主程度的不同分为五个级别：</p>
+<p>L0：完全手动驾驶。<br>
+L1：驾驶员辅助，只有单一功能（如定速巡航）。<br>
+L2：部分自动化，驾驶员可以放松操控，但仍需监督。<br>
+L3：有条件自动化，驾驶员可以在特定条件下不干预。<br>
+L4：高度自动化，特定场景下无需驾驶员干预。<br>
+L5：完全自动化，车辆在任何环境下都无需人类干预。<br>
+特斯拉目前的Autopilot和FSD都属于L2到L3之间的技术，尚未达到完全自动驾驶的水平。</p>
+<h3>二、特斯拉Autopilot与FSD：功能与发展</h3>
+<p>特斯拉的**Autopilot（自动驾驶辅助系统）和FSD（完全自动驾驶）**系统是目前市场上最为人熟知的自动驾驶技术之一。这两个系统的差别主要体现在功能的深度和自主性上。</p>
+<ol>
+<li>Autopilot（自动驾驶辅助系统）<br>
+功能特点：</li>
+</ol>
+<p>自动巡航（Cruise Control）：根据前方车速自动调整车速。<br>
+自动转向（Autosteer）：在高速公路或标定的车道内，车辆能够自动保持车道并调整方向。<br>
+自动刹车与避障（Emergency Braking &amp; Collision Avoidance）：通过雷达和摄像头，系统可以在遇到突发情况时自动刹车，避免碰撞。<br>
+局限性：</p>
+<p>L2级别自动驾驶：虽然系统能自动调节车速和转向，但驾驶员必须时刻监控驾驶情况并随时接管操作。系统无法应对复杂城市交通或非常规路况。<br>
+需要驾驶员干预：如果系统检测到驾驶员没有保持手握方向盘，或者存在安全隐患时，系统会发出警告并要求驾驶员接管。<br>
+2. FSD（完全自动驾驶）<br>
+FSD系统是特斯拉更高级的自动驾驶功能，目的是实现更高水平的自动化。FSD包含了Autopilot的所有功能，并在此基础上进行了扩展。</p>
+<p>功能特点：</p>
+<p>自动变道：在高速公路上，FSD能够根据交通情况和导航路线自动变换车道。<br>
+自动停车：车辆能够自主寻找停车位并完成停车操作。<br>
+城市街道自动驾驶（Navigate on City Streets）：FSD能在城市环境中实现较为简单的导航，包括红绿灯、停止标志、行人等常见城市交通元素。<br>
+召唤功能（Summon）：车主可以通过手机App远程召唤车辆，车辆能自动驶出停车位并接近车主。<br>
+局限性：</p>
+<p>仍是L2级别的辅助驾驶：虽然FSD具有更多功能，但在大多数情况下，驾驶员仍需保持警觉，并准备随时接管操作。<br>
+需要改进的地方：在城市环境下，FSD系统依旧面临较大挑战，特别是在复杂交通、复杂路况以及不可预测的突发情况（如行人、临时障碍等）。</p>
+<h3>三、特斯拉Autopilot与FSD的安全性与风险</h3>
+<p>尽管特斯拉的Autopilot和FSD系统不断在技术上取得进展，但其安全性和可靠性仍然存在一定的争议和风险。</p>
+<ol>
+<li>安全性：</li>
+</ol>
+<p>减少人为错误：自动驾驶技术的最大优势之一是减少因驾驶员失误而导致的交通事故。例如，Autopilot可以通过雷达、摄像头实时检测前方路况，并自动调整车速，避免跟车过近或发生追尾。<br>
+交通效率提升：FSD系统能够通过自动变道和停车等功能，优化交通流量，减少交通拥堵。<br>
+2. 风险与挑战：</p>
+<p>系统限制：当前的Autopilot和FSD仍然无法在所有环境下完美运行。例如，FSD在城市道路上行驶时，需要准确识别红绿灯、行人、交叉口等复杂情况，这些都需要极高的算法精度和数据支持。<br>
+事故风险：2016年，特斯拉Model S在启用Autopilot时发生了致命车祸。调查显示，系统未能及时识别到前方的白色卡车，导致车辆未能刹车，发生了碰撞。尽管特斯拉在之后的更新中增加了更多的传感器和改进算法，但此类事故仍然提醒我们自动驾驶技术的不完善。<br>
+3. 公众信任与法律监管： 随着自动驾驶技术的推进，公众对其安全性的信任问题也逐渐成为焦点。特斯拉公司对系统的推向市场速度较快，但仍需要进一步加强测试和优化。此外，自动驾驶的法律和伦理问题也需要在全球范围内达成共识，确保技术的安全应用。</p>
+<h3>四、总结</h3>
+<p>特斯拉的Autopilot和FSD代表了当前自动驾驶技术的前沿发展。虽然这两者在提升驾驶便利性和安全性方面具有很大的潜力，但它们仍然面临技术、法律和伦理方面的挑战。目前，这些系统主要还是辅助驾驶的功能，驾驶员仍然需要时刻保持警觉，并随时准备接管控制。</p>
+<p>未来，随着技术的不断成熟，特斯拉的自动驾驶系统可能会逐步过渡到更高级别的自动化（L4、L5），但在此过程中，安全性和可靠性仍是我们关注的核心。可以预见，随着技术的不断优化和法律监管的逐步完善，自动驾驶将在未来的出行中发挥越来越重要的作用。</p></div>
+<div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://weijiajin.com">weijiajin.com</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if("09/01/2016"!=""){
+    var startSite=new Date("09/01/2016");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek Latest https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","wejudging/wejudging.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+
+
+</script>
+<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>
+
+</html>
