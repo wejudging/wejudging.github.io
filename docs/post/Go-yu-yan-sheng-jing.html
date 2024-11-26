@@ -10,18 +10,18 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="**1. go.mod 是什么？**
+<meta name="description" content="## 1.1. Hello, World
 
-作用：go.mod 是 Go 项目模块的描述文件，用于管理项目依赖和版本。">
+我们以现已成为传统的“hello world”案例来开始吧，这个例子首次出现于 1978 年出版的 C 语言圣经 [《The C Programming Language》](http://s3-us-west-2.amazonaws.com/belllabs-microsite-dritchie/cbook/index.html)（译注：本书作者之一 Brian W. Kernighan 也是《The C Programming Language》一书的作者）。">
 <meta property="og:title" content="Go语言圣经">
-<meta property="og:description" content="**1. go.mod 是什么？**
+<meta property="og:description" content="## 1.1. Hello, World
 
-作用：go.mod 是 Go 项目模块的描述文件，用于管理项目依赖和版本。">
+我们以现已成为传统的“hello world”案例来开始吧，这个例子首次出现于 1978 年出版的 C 语言圣经 [《The C Programming Language》](http://s3-us-west-2.amazonaws.com/belllabs-microsite-dritchie/cbook/index.html)（译注：本书作者之一 Brian W. Kernighan 也是《The C Programming Language》一书的作者）。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://weijiajin.com/post/Go-yu-yan-sheng-jing.html">
 <meta property="og:image" content="https://weijiajin.com/circle.svg">
 <title>Go语言圣经</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 
 </head>
@@ -45,7 +45,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     body {padding: 8px;}
     .postTitle{font-size:24px;}
 }
-
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
 </style>
 
 
@@ -77,17 +87,44 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><strong>1. go.mod 是什么？</strong></p>
-<p>作用：go.mod 是 Go 项目模块的描述文件，用于管理项目依赖和版本。<br>
-位置：通常位于项目的根目录。<br>
-功能：定义模块名称（项目的唯一标识）。<br>
-记录项目依赖的第三方库及其版本。<br>
-支持模块版本管理，方便复现项目构建环境。<br>
-go.mod 的功能类似于其他语言中的依赖管理文件</p>
-<p>例如：<br>
-Node.js 的 package.json<br>
-Python 的 requirements.txt<br>
-Rust 的 Cargo.toml</p></div>
+<div class="markdown-body" id="postBody"><h2>1.1. Hello, World</h2>
+<p>我们以现已成为传统的“hello world”案例来开始吧，这个例子首次出现于 1978 年出版的 C 语言圣经 <a href="http://s3-us-west-2.amazonaws.com/belllabs-microsite-dritchie/cbook/index.html" rel="nofollow">《The C Programming Language》</a>（译注：本书作者之一 Brian W. Kernighan 也是《The C Programming Language》一书的作者）。C 语言是直接影响 Go 语言设计的语言之一。这个例子体现了 Go 语言一些核心理念。</p>
+<p><i>gopl.io/ch1/helloworld</i></p>
+<div class="highlight highlight-source-go"><pre class="notranslate"><span class="pl-k">package</span> main
+
+<span class="pl-k">import</span> <span class="pl-s">"fmt"</span>
+
+<span class="pl-k">func</span> <span class="pl-en">main</span>() {
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"Hello, 世界"</span>)
+}</pre></div>
+<p>Go 是一门编译型语言，Go 语言的工具链将源代码及其依赖转换成计算机的机器指令（译注：静态编译）。Go 语言提供的工具都通过一个单独的命令 <code class="notranslate">go</code> 调用，<code class="notranslate">go</code> 命令有一系列子命令。最简单的一个子命令就是 <code class="notranslate">run</code>。这个命令编译一个或多个以。<code class="notranslate">.go</code> 结尾的源文件，链接库文件，并运行最终生成的可执行文件。（本书使用$表示命令行提示符。）</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">$ go run helloworld.go</pre></div>
+<p>毫无意外，这个命令会输出：</p>
+<pre lang="text" class="notranslate"><code class="notranslate">Hello, 世界
+</code></pre>
+<p>Go 语言原生支持 Unicode，它可以处理全世界任何语言的文本。</p>
+<p>如果不只是一次性实验，你肯定希望能够编译这个程序，保存编译结果以备将来之用。可以用 <code class="notranslate">build</code> 子命令：</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">$ go build helloworld.go</pre></div>
+<p>这个命令生成一个名为 <code class="notranslate">helloworld</code> 的可执行的二进制文件（译注：Windows 系统下生成的可执行文件是 <code class="notranslate">helloworld.exe</code>，增加了 <code class="notranslate">.exe</code> 后缀名），之后你可以随时运行它（译注：在 Windows 系统下在命令行直接输入 <code class="notranslate">helloworld.exe</code> 命令运行），不需任何处理（译注：因为静态编译，所以不用担心在系统库更新的时候冲突，幸福感满满）。</p>
+<pre class="notranslate"><code class="notranslate">$ ./helloworld
+Hello, 世界
+</code></pre>
+<p>本书中所有示例代码上都有一行标记，利用这些标记可以从 <a href="http://gopl.io" rel="nofollow">gopl.io</a> 网站上本书源码仓库里获取代码：</p>
+<pre lang="text" class="notranslate"><code class="notranslate">gopl.io/ch1/helloworld
+</code></pre>
+<p>执行 <code class="notranslate">go get gopl.io/ch1/helloworld</code> 命令，就会从网上获取代码，并放到对应目录中（需要先安装 Git 或 Hg 之类的版本管理工具，并将对应的命令添加到 <code class="notranslate">PATH</code> 环境变量中。序言已经提及，需要先设置好 <code class="notranslate">GOPATH</code> 环境变量，下载的代码会放在 <code class="notranslate">$GOPATH/src/gopl.io/ch1/helloworld</code> 目录）。<a href="../ch2/ch2-06.md">2.6</a> 和 <a href="../ch10/ch10-07.md">10.7 节</a>有这方面更详细的介绍。</p>
+<p>来讨论下程序本身。Go 语言的代码通过<strong>包</strong>（package）组织，包类似于其它语言里的库（libraries）或者模块（modules）。一个包由位于单个目录下的一个或多个 <code class="notranslate">.go</code> 源代码文件组成，目录定义包的作用。每个源文件都以一条 <code class="notranslate">package</code> 声明语句开始，这个例子里就是 <code class="notranslate">package main</code>，表示该文件属于哪个包，紧跟着一系列导入（import）的包，之后是存储在这个文件里的程序语句。</p>
+<p>Go 的标准库提供了 100 多个包，以支持常见功能，如输入、输出、排序以及文本处理。比如 <code class="notranslate">fmt</code> 包，就含有格式化输出、接收输入的函数。<code class="notranslate">Println</code> 是其中一个基础函数，可以打印以空格间隔的一个或多个值，并在最后添加一个换行符，从而输出一整行。</p>
+<p><code class="notranslate">main</code> 包比较特殊。它定义了一个独立可执行的程序，而不是一个库。在 <code class="notranslate">main</code> 里的 <code class="notranslate">main</code> <em>函数</em>也很特殊，它是整个程序执行时的入口（译注：C 系语言差不多都这样）。<code class="notranslate">main</code> 函数所做的事情就是程序做的。当然了，<code class="notranslate">main</code> 函数一般调用其它包里的函数完成很多工作（如：<code class="notranslate">fmt.Println</code>）。</p>
+<p>必须告诉编译器源文件需要哪些包，这就是跟随在 <code class="notranslate">package</code> 声明后面的 <code class="notranslate">import</code> 声明扮演的角色。<code class="notranslate">hello world</code> 例子只用到了一个包，大多数程序需要导入多个包。</p>
+<p>必须恰当导入需要的包，缺少了必要的包或者导入了不需要的包，程序都无法编译通过。这项严格要求避免了程序开发过程中引入未使用的包（译注：Go 语言编译过程没有警告信息，争议特性之一）。</p>
+<p><code class="notranslate">import</code> 声明必须跟在文件的 <code class="notranslate">package</code> 声明之后。随后，则是组成程序的函数、变量、常量、类型的声明语句（分别由关键字 <code class="notranslate">func</code>、<code class="notranslate">var</code>、<code class="notranslate">const</code>、<code class="notranslate">type</code> 定义）。这些内容的声明顺序并不重要（译注：最好还是定一下规范）。这个例子的程序已经尽可能短了，只声明了一个函数，其中只调用了一个其他函数。为了节省篇幅，有些时候示例程序会省略 <code class="notranslate">package</code> 和 <code class="notranslate">import</code> 声明，但是，这些声明在源代码里有，并且必须得有才能编译。</p>
+<p>一个函数的声明由 <code class="notranslate">func</code> 关键字、函数名、参数列表、返回值列表（这个例子里的 <code class="notranslate">main</code> 函数参数列表和返回值都是空的）以及包含在大括号里的函数体组成。第五章进一步考察函数。</p>
+<p>Go 语言不需要在语句或者声明的末尾添加分号，除非一行上有多条语句。实际上，编译器会主动把特定符号后的换行符转换为分号，因此换行符添加的位置会影响 Go 代码的正确解析（译注：比如行末是标识符、整数、浮点数、虚数、字符或字符串文字、关键字 <code class="notranslate">break</code>、<code class="notranslate">continue</code>、<code class="notranslate">fallthrough</code>或 <code class="notranslate">return</code> 中的一个、运算符和分隔符 <code class="notranslate">++</code>、<code class="notranslate">--</code>、<code class="notranslate">)</code>、<code class="notranslate">]</code> 或 <code class="notranslate">}</code> 中的一个）。举个例子，函数的左括号 <code class="notranslate">{</code> 必须和 <code class="notranslate">func</code> 函数声明在同一行上，且位于末尾，不能独占一行，而在表达式 <code class="notranslate">x+y</code> 中，可在 <code class="notranslate">+</code> 后换行，不能在 <code class="notranslate">+</code> 前换行（译注：以+结尾的话不会被插入分号分隔符，但是以 x 结尾的话则会被分号分隔符，从而导致编译错误）。</p>
+<p>Go 语言在代码格式上采取了很强硬的态度。<code class="notranslate">gofmt</code>工具把代码格式化为标准格式（译注：这个格式化工具没有任何可以调整代码格式的参数，Go 语言就是这么任性），并且 <code class="notranslate">go</code> 工具中的 <code class="notranslate">fmt</code> 子命令会对指定包，否则默认为当前目录中所有go 源文件应用 <code class="notranslate">gofmt</code> 命令。本书中的所有代码都被 gofmt 过。你也应该养成格式化自己的代码的习惯。以法令方式规定标准的代码格式可以避免无尽的无意义的琐碎争执（译注：也导致了 Go 语言的 TIOBE 排名较低，因为缺少撕逼的话题）。更重要的是，这样可以做多种自动源码转换，如果放任 Go 语言代码格式，这些转换就不大可能了。</p>
+<p>很多文本编辑器都可以配置为保存文件时自动执行 <code class="notranslate">gofmt</code>，这样你的源代码总会被恰当地格式化。还有个相关的工具：<code class="notranslate">goimports</code>，可以根据代码需要，自动地添加或删除 <code class="notranslate">import</code> 声明。这个工具并没有包含在标准的分发包中，可以用下面的命令安装：</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">$ go get golang.org/x/tools/cmd/goimports</pre></div>
+<p>对于大多数用户来说，下载、编译包、运行测试用例、察看 Go 语言的文档等等常用功能都可以用 go 的工具完成。<a href="../ch10/ch10-07.md">10.7 节</a>详细介绍这些知识。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -112,7 +149,7 @@ if("09/01/2016"!=""){
 </script></div>
 </body>
 <script>
-var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
 var utterancesLoad=0;
 
 let themeSettings={
@@ -185,7 +222,70 @@ function iFrameLoading(){
     }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
 
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
 
 </script>
 <script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>
