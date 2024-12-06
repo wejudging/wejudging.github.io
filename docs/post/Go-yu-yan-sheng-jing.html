@@ -94,8 +94,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <span class="pl-k">import</span> <span class="pl-s">"fmt"</span>
 
-<span class="pl-k">func</span> <span class="pl-en">main</span>() {
-	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"Hello, 世界"</span>)
+<span class="pl-k">func</span> <span class="pl-s1">main</span>() {
+	<span class="pl-s1">fmt</span>.<span class="pl-c1">Println</span>(<span class="pl-s">"Hello, 世界"</span>)
 }</pre></div>
 <p>Go 是一门编译型语言，Go 语言的工具链将源代码及其依赖转换成计算机的机器指令（译注：静态编译）。Go 语言提供的工具都通过一个单独的命令 <code class="notranslate">go</code> 调用，<code class="notranslate">go</code> 命令有一系列子命令。最简单的一个子命令就是 <code class="notranslate">run</code>。这个命令编译一个或多个以。<code class="notranslate">.go</code> 结尾的源文件，链接库文件，并运行最终生成的可执行文件。（本书使用$表示命令行提示符。）</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">$ go run helloworld.go</pre></div>
