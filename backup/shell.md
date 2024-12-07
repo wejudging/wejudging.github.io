@@ -113,3 +113,23 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/
 yum clean all
 yum makecache
 ```
+
+debian10安装x-ui
+```
+commands = [
+        "sudo apt-get update",
+        "sudo apt-get install apt-transport-https -y",
+        "sudo apt-get install ca-certificates -y",
+        "sudo apt-get install curl -y",
+        "sudo apt-get install gnupg2 -y",
+        "sudo apt-get install software-properties-common -y",
+        "curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg",
+        "echo \"deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable\" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null",
+        "sudo apt-get update",
+        "sudo apt-get install docker-ce docker-ce-cli containerd.io -y",
+        "git clone https://github.com/wejudging/x-ui.git",
+        "cd /root/x-ui && docker compose up -d"
+    ]
+```
+
+
