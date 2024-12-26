@@ -18,9 +18,16 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_c
 systemctl restart sshd
 ```
 
-**安装docker**
+**官网安装docker**
 ```bash
 curl -fsSL https://get.docker.com | bash -s docker
+systemctl start docker
+systemctl enable docker
+```
+
+**国内安装docker**
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 systemctl start docker
 systemctl enable docker
 ```
@@ -155,9 +162,16 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_c
 systemctl restart sshd
 ```
 
-**安装docker**
+**官网安装docker**
 ```bash
 curl -fsSL https://get.docker.com | bash -s docker
+systemctl start docker
+systemctl enable docker
+```
+
+**国内安装docker**
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 systemctl start docker
 systemctl enable docker
 ```
@@ -357,8 +371,12 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="highlight highlight-source-shell"><pre class="notranslate">sed -i <span class="pl-s"><span class="pl-pds">'</span>s/#PermitRootLogin prohibit-password/PermitRootLogin yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
 sed -i <span class="pl-s"><span class="pl-pds">'</span>s/PasswordAuthentication no/PasswordAuthentication yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
 systemctl restart sshd</pre></div>
-<p><strong>安装docker</strong></p>
+<p><strong>官网安装docker</strong></p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">curl -fsSL https://get.docker.com <span class="pl-k">|</span> bash -s docker
+systemctl start docker
+systemctl <span class="pl-c1">enable</span> docker</pre></div>
+<p><strong>国内安装docker</strong></p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -sSL https://linuxmirrors.cn/docker.sh<span class="pl-pds">)</span></span>
 systemctl start docker
 systemctl <span class="pl-c1">enable</span> docker</pre></div>
 <p><strong>BBR-PLUS脚本</strong></p>

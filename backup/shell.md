@@ -6,9 +6,16 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_c
 systemctl restart sshd
 ```
 
-**安装docker**
+**官网安装docker**
 ```bash
 curl -fsSL https://get.docker.com | bash -s docker
+systemctl start docker
+systemctl enable docker
+```
+
+**国内安装docker**
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 systemctl start docker
 systemctl enable docker
 ```
