@@ -86,7 +86,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><p>在现代应用中，流量转发和域名解析是部署服务的关键环节。尤其是需要处理多域名场景时，基于 <strong>SNI（Server Name Indication）</strong> 的流量转发可以显著简化配置管理和提高服务性能。在本文中，我将通过一个基于 <code class="notranslate">docker-compose</code> 的配置示例，介绍如何利用 NGINX 的 <code class="notranslate">ssl_preread</code> 功能实现 SNI 识别，并根据域名转发流量到不同的后端服务。</p>
 <hr>
 <h2>配置场景概述</h2>
-<p>我们假设有以下需求：</p>
+<p>假设有以下需求：</p>
 <ol>
 <li>根据请求的域名，将流量转发到不同的后端服务。
 <ul>

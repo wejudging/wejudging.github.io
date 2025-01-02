@@ -4,7 +4,7 @@
 
 ## 配置场景概述
 
-我们假设有以下需求：
+假设有以下需求：
 1. 根据请求的域名，将流量转发到不同的后端服务。
    - 如果域名是 `*.weijiajin.com`，流量转发到 `web` 服务。
    - 如果域名是 `feelheart.eastasia.cloudapp.azure.com`，流量转发到 `trojan` 服务。
