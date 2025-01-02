@@ -5,15 +5,19 @@
             {
                 "type": "field",
                 "domain": [
-                    "openai.com",
                     "chatgpt.com",
-                    "whatismyipaddress.com",
-                    "ipaddress.my",
-                    "whatismyip.com"
+                    "openai.com",
+                    "oaistatic.com",
+                    "oaiusercontent.com",
+                    "openai.com.cdn.cloudflare.net",
+                    "openaiapi-site.azureedge.net",
+                    "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+                    "openaicomproductionae4b.blob.core.windows.net",
+                    "production-openaicom-storage.azureedge.net"
                 ],
                 "outboundTag": "chatgpt"
-}
-]
+            }
+        ]
 }
 ```
 
