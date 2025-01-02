@@ -13,7 +13,19 @@
                     "openaiapi-site.azureedge.net",
                     "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
                     "openaicomproductionae4b.blob.core.windows.net",
-                    "production-openaicom-storage.azureedge.net"
+                    "production-openaicom-storage.azureedge.net",
+                    "claude.ai",
+                    "anthropic.com",
+                    "gemini.google.com",
+                    "proactivebackend-pa.googleapis.com",
+                    "ai.google.dev",
+                    "alkalimakersuite-pa.clients6.google.com",
+                    "makersuite.google.com",
+                    "bard.google.com",
+                    "deepmind.com",
+                    "deepmind.google",
+                    "generativeai.google",
+                    "apis.google.com" 
                 ],
                 "outboundTag": "chatgpt"
             }

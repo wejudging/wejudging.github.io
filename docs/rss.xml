@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Thu, 02 Jan 2025 10:19:07 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>Hysteria2解锁ChatGPT</title><link>https://weijiajin.com/post/Hysteria2-jie-suo-ChatGPT.html</link><description>```yaml&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Thu, 02 Jan 2025 10:28:36 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>Hysteria2解锁ChatGPT</title><link>https://weijiajin.com/post/Hysteria2-jie-suo-ChatGPT.html</link><description>```yaml&#13;
 outbounds:&#13;
   - name: ipv4&#13;
     type: direct&#13;
@@ -43,7 +43,19 @@ acl:&#13;
                     'openaiapi-site.azureedge.net',&#13;
                     'openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net',&#13;
                     'openaicomproductionae4b.blob.core.windows.net',&#13;
-                    'production-openaicom-storage.azureedge.net'&#13;
+                    'production-openaicom-storage.azureedge.net',&#13;
+                    'claude.ai',&#13;
+                    'anthropic.com',&#13;
+                    'gemini.google.com',&#13;
+                    'proactivebackend-pa.googleapis.com',&#13;
+                    'ai.google.dev',&#13;
+                    'alkalimakersuite-pa.clients6.google.com',&#13;
+                    'makersuite.google.com',&#13;
+                    'bard.google.com',&#13;
+                    'deepmind.com',&#13;
+                    'deepmind.google',&#13;
+                    'generativeai.google',&#13;
+                    'apis.google.com' &#13;
                 ],&#13;
                 'outboundTag': 'chatgpt'&#13;
             }&#13;
