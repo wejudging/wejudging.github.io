@@ -31,12 +31,12 @@
       "settings": {
         "servers": [
           {
-            "address": "129.146.241.219",
-            "port": 18888,
+            "address": "ip",
+            "port": 端口,
             "users": [
               {
-                "user": "weijiajin",
-                "pass": "weijiajin",
+                "user": "用户名",
+                "pass": "密码",
                 "level": 0
               }
             ]
