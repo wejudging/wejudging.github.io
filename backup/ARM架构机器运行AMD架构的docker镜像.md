@@ -6,7 +6,6 @@ sudo apt-get install qemu qemu-user qemu-user-static
 
 ### 安装 binfmt-support
 ```
-sudo apt-get update
 sudo apt-get install binfmt-support
 ```
 
