@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Tue, 14 Jan 2025 18:06:43 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>ARM架构机器运行AMD架构的docker镜像</title><link>https://weijiajin.com/post/ARM-jia-gou-ji-qi-yun-xing-AMD-jia-gou-de-docker-jing-xiang.html</link><description>### 安装 QEMU&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/circle.svg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Wed, 15 Jan 2025 07:55:40 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>ARM架构机器运行AMD架构的docker镜像</title><link>https://weijiajin.com/post/ARM-jia-gou-ji-qi-yun-xing-AMD-jia-gou-de-docker-jing-xiang.html</link><description>### 安装 QEMU&#13;
 ```&#13;
 sudo apt-get update&#13;
 sudo apt-get install qemu qemu-user qemu-user-static&#13;
@@ -192,7 +192,8 @@ pyautogui.click(clicks=3)&#13;
 ### 售后交流群&#13;
 联系客服加群（微信号）：`weijiajin-com`&#13;
 &#13;
-。</description><guid isPermaLink="true">https://weijiajin.com/post/yan-wu-GPT-shi-yong-shuo-ming.html</guid><pubDate>Tue, 19 Nov 2024 20:08:55 +0000</pubDate></item><item><title>正版MATLAB教程</title><link>https://weijiajin.com/post/zheng-ban-MATLAB-jiao-cheng.html</link><description>### MATLAB 下载&#13;
+### 售后邮箱&#13;
+`admin@weijiajin.com`。</description><guid isPermaLink="true">https://weijiajin.com/post/yan-wu-GPT-shi-yong-shuo-ming.html</guid><pubDate>Tue, 19 Nov 2024 20:08:55 +0000</pubDate></item><item><title>正版MATLAB教程</title><link>https://weijiajin.com/post/zheng-ban-MATLAB-jiao-cheng.html</link><description>### MATLAB 下载&#13;
 &#13;
 1. 浏览器打开官网 [https://ww2.mathworks.cn](https://ww2.mathworks.cn)，点击右上角登录&#13;
 ![image](https://github.com/user-attachments/assets/628995a6-178b-44f7-9863-9e934788ee58)&#13;
