@@ -1,4 +1,4 @@
-该服务基于 `wejudging/cloudflare-gost:latest` 镜像，结合了 Cloudflare 和 Gost，实现高效的代理功能。
+该服务基于 `wejudging/cloudflare-gost:latest` 镜像，结合了 Cloudflare 和 Gost，实现高效的代理功能
 
 #### 配置说明
 ```yaml
