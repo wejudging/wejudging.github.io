@@ -10,7 +10,7 @@ sudo apt-get update
 sudo apt-get install binfmt-support
 ```
 
-### 将 QEMU 的模拟器注册到内核中
+### 将 QEMU 的模拟器注册到内核
 ```
 sudo update-binfmts --enable
 ```
