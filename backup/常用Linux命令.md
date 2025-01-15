@@ -121,7 +121,7 @@ yum clean all
 yum makecache
 ```
 
-debian10安装x-ui
+**debian10安装x-ui**
 ```
 commands = [
         "sudo apt-get update",
@@ -139,4 +139,7 @@ commands = [
     ]
 ```
 
-
+**测速**
+```
+wget http://updates-http.cdn-apple.com/2019WinterFCS/fullrestores/041-39257/32129B6C-292C-11E9-9E72-4511412B0A59/iPhone_4.7_12.1.4_16D57_Restore.ipsw
+```
