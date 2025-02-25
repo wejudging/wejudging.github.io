@@ -6,4 +6,4 @@
 联系客服加群（微信号）：`weijiajin-com`
 
 ### 售后邮箱
-`admin@weijiajin.com`
+`873773108@qq.com`
