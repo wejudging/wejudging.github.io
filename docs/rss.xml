@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Wed, 15 Jan 2025 09:53:09 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>ARM架构机器运行AMD架构的docker镜像</title><link>https://weijiajin.com/post/ARM-jia-gou-ji-qi-yun-xing-AMD-jia-gou-de-docker-jing-xiang.html</link><description>### 安装 QEMU&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Tue, 25 Feb 2025 11:11:58 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>ARM架构机器运行AMD架构的docker镜像</title><link>https://weijiajin.com/post/ARM-jia-gou-ji-qi-yun-xing-AMD-jia-gou-de-docker-jing-xiang.html</link><description>### 安装 QEMU&#13;
 ```&#13;
 sudo apt-get update&#13;
 sudo apt-get install qemu qemu-user qemu-user-static&#13;
@@ -191,19 +191,14 @@ pyautogui.click(clicks=3)&#13;
 &#13;
 我们以现已成为传统的“hello world”案例来开始吧，这个例子首次出现于 1978 年出版的 C 语言圣经 [《The C Programming Language》](http://s3-us-west-2.amazonaws.com/belllabs-microsite-dritchie/cbook/index.html)（译注：本书作者之一 Brian W. Kernighan 也是《The C Programming Language》一书的作者）。</description><guid isPermaLink="true">https://weijiajin.com/post/Go-yu-yan-sheng-jing.html</guid><pubDate>Sun, 24 Nov 2024 10:43:48 +0000</pubDate></item><item><title>自动驾驶</title><link>https://weijiajin.com/post/zi-dong-jia-shi.html</link><description>### 一、什么是自动驾驶？&#13;
 &#13;
-自动驾驶指的是利用先进的传感器、计算机视觉、人工智能和自动化控制技术，让汽车能够在无需人工干预的情况下自主行驶。</description><guid isPermaLink="true">https://weijiajin.com/post/zi-dong-jia-shi.html</guid><pubDate>Wed, 20 Nov 2024 06:54:38 +0000</pubDate></item><item><title>言吾GPT使用说明</title><link>https://weijiajin.com/post/yan-wu-GPT-shi-yong-shuo-ming.html</link><description>### 游客免登&#13;
-20次/小时普通模型 免费&#13;
-&#13;
-### 注册用户&#13;
-40次/小时普通模型 免费&#13;
-&#13;
-### Plus用户&#13;
-80次/小时高级模型 付费&#13;
-&#13;
-### 售后交流群&#13;
-联系客服加群（微信号）：`weijiajin-com`&#13;
-&#13;
-### 售后邮箱&#13;
+自动驾驶指的是利用先进的传感器、计算机视觉、人工智能和自动化控制技术，让汽车能够在无需人工干预的情况下自主行驶。</description><guid isPermaLink="true">https://weijiajin.com/post/zi-dong-jia-shi.html</guid><pubDate>Wed, 20 Nov 2024 06:54:38 +0000</pubDate></item><item><title>言吾GPT使用说明</title><link>https://weijiajin.com/post/yan-wu-GPT-shi-yong-shuo-ming.html</link><description>
+### 付费用户
+无次数限制
+
+### 售后交流群
+联系客服加群（微信号）：`weijiajin-com`
+
+### 售后邮箱
 `admin@weijiajin.com`。</description><guid isPermaLink="true">https://weijiajin.com/post/yan-wu-GPT-shi-yong-shuo-ming.html</guid><pubDate>Tue, 19 Nov 2024 20:08:55 +0000</pubDate></item><item><title>正版MATLAB教程</title><link>https://weijiajin.com/post/zheng-ban-MATLAB-jiao-cheng.html</link><description>### MATLAB 下载&#13;
 &#13;
 1. 浏览器打开官网 [https://ww2.mathworks.cn](https://ww2.mathworks.cn)，点击右上角登录&#13;
