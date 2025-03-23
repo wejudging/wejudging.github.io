@@ -4,6 +4,7 @@ https://one-api.weijiajin.com
 ## Chat
 https://chat.weijiajin.com
 
+https://ai.weijiajin.com
 
 
 ## OpenAI文档介绍
