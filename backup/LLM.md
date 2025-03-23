@@ -2,13 +2,15 @@
 https://one-api.weijiajin.com
 
 ## Chat
-https://chat.weijiajin.com/
+https://chat.weijiajin.com
 
 
 
 ## OpenAI文档介绍
+
 英文仓库
 https://github.com/openai/openai-cookbook
+
 中文文档翻译
 https://openai.xiniushu.com
 
@@ -17,13 +19,15 @@ https://openai.xiniushu.com
 https://linux.do
 
 ## 中文大语言模型
+
 https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
+
 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
 
 
 ## 论文怎么找创新点
 
-大模型LLM+推荐系统(RS)，发论文怎么找创新点 14篇会议论文和代码
+大模型LLM+推荐系统找创新点
 https://zhuanlan.zhihu.com/p/673058941
 
 
