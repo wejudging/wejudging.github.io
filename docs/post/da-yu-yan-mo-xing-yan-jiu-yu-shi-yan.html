@@ -113,7 +113,6 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>论文怎么找创新点</h2>
 <p>大模型LLM+推荐系统(RS)，发论文怎么找创新点 14篇会议论文和代码<br>
 <a href="https://zhuanlan.zhihu.com/p/673058941" rel="nofollow">https://zhuanlan.zhihu.com/p/673058941</a></p>
-<hr>
 <h2>一、Prompt实验设计与案例</h2>
 <p>Prompt（提示词）设计是大语言模型使用中的关键环节，不同的提示方式会显著影响模型输出的效果。以下列举几种主流的 Prompt 方法，并结合实际案例进行说明。</p>
 <h4>🔹 Zero-shot Prompting（零样本提示）</h4>
@@ -123,167 +122,98 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li><strong>示例</strong>：
 <pre lang="text" class="notranslate"><code class="notranslate">问题：首都在哪里？  
 回答：中国的首都是北京。
-
-
 </code></pre>
 </li>
 </ul>
-<hr>
-<h2>二、主流大模型比较与选择建议</h2>
-<p>当前市面上主流的大语言模型（LLMs）各具优势，适用场景也存在一定差异。以下从模型能力、开放性、价格策略、上下文长度、接口易用性等角度对比主流模型，并在最后给出选择建议。</p>
-<h3>1. 模型总览表</h3>
-<markdown-accessiblity-table><table role="table">
-<thead>
-<tr>
-<th>模型名称</th>
-<th>提供方</th>
-<th>代表版本</th>
-<th>上下文长度</th>
-<th>多轮对话能力</th>
-<th>代码能力</th>
-<th>中文能力</th>
-<th>价格策略</th>
-<th>接口开放性</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>DeepSeek R1</strong></td>
-<td>DeepSeek AI</td>
-<td>R1</td>
-<td>128K</td>
-<td>⭐⭐⭐⭐</td>
-<td>⭐⭐⭐⭐</td>
-<td>⭐⭐⭐⭐</td>
-<td>免费/按量</td>
-<td>API 提供</td>
-</tr>
-<tr>
-<td><strong>ChatGPT</strong></td>
-<td>OpenAI</td>
-<td>GPT-4-turbo</td>
-<td>128K</td>
-<td>⭐⭐⭐⭐⭐</td>
-<td>⭐⭐⭐⭐⭐</td>
-<td>⭐⭐⭐⭐</td>
-<td>GPT-3.5 免费；GPT-4 收费</td>
-<td>API、插件、工具链</td>
-</tr>
-<tr>
-<td><strong>Claude</strong></td>
-<td>Anthropic</td>
-<td>Claude 3 Opus</td>
-<td>200K+</td>
-<td>⭐⭐⭐⭐⭐</td>
-<td>⭐⭐⭐⭐</td>
-<td>⭐⭐⭐⭐</td>
-<td>免费/订阅</td>
-<td>API 提供（有限）</td>
-</tr>
-<tr>
-<td><strong>Grok</strong></td>
-<td>xAI (Elon Musk)</td>
-<td>Grok-1.5</td>
-<td>~32K?</td>
-<td>⭐⭐⭐</td>
-<td>⭐⭐⭐</td>
-<td>⭐⭐</td>
-<td>X平台内订阅</td>
-<td>暂无开放API</td>
-</tr>
-<tr>
-<td><strong>LLaMA</strong></td>
-<td>Meta</td>
-<td>LLaMA 2 / 3</td>
-<td>4K–32K+</td>
-<td>⭐⭐⭐⭐</td>
-<td>⭐⭐⭐⭐</td>
-<td>⭐⭐⭐</td>
-<td>开源免费</td>
-<td>需自行部署</td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
-<blockquote>
-<p>说明：星级为相对评分，5星为最优。上下文长度单位为 tokens。</p>
-</blockquote>
-<hr>
-<h3>2. 各模型简要分析</h3>
-<h4>🔹 DeepSeek R1（国产亮眼新星）</h4>
+<pre class="notranslate"><code class="notranslate">
+
+#### 🔹 Chain-of-Thought Prompting（思维链提示）
+定义：引导模型按逻辑步骤推理，输出推理过程。
+特点：显著提升数学、推理类任务表现。
+示例：
+</code></pre>
+<p>问题：如果今天是星期一，100 天后是星期几？<br>
+让我们一步步来思考：</p>
 <ul>
-<li><strong>亮点</strong>：强大的数学和代码能力，推理能力优于 GPT-4-turbo 在部分中文任务上。</li>
-<li><strong>适用场景</strong>：中文问答、代码生成、教育类应用。</li>
-<li><strong>特点</strong>：支持128K上下文，响应速度快，API稳定。</li>
+<li>7 天是一个完整的星期。</li>
+<li>100 除以 7 等于 14 余 2。</li>
+<li>所以是星期一之后的第 2 天，即星期三。<br>
+回答：星期三</li>
 </ul>
-<h4>🔹 ChatGPT（生态最完整）</h4>
-<ul>
-<li><strong>亮点</strong>：强大的工具调用能力（函数调用、插件、浏览器、代码解释器等）。</li>
-<li><strong>适用场景</strong>：通用对话、复杂任务编排、Agent系统。</li>
-<li><strong>特点</strong>：GPT-4-turbo 价格降低且更高效；生态完善，开发者友好。</li>
-</ul>
-<h4>🔹 Claude（长文本之王）</h4>
-<ul>
-<li><strong>亮点</strong>：超长上下文（超过200K token），总结与分析长文档效果优秀。</li>
-<li><strong>适用场景</strong>：法律文档处理、长篇文本总结、写作辅助。</li>
-<li><strong>特点</strong>：语言风格温和，安全性高，适合企业级部署。</li>
-</ul>
-<h4>🔹 Grok（社交场景专用）</h4>
-<ul>
-<li><strong>亮点</strong>：整合 Twitter（现为 X）数据，适合社交语境内容生成。</li>
-<li><strong>适用场景</strong>：社交媒体内容生成、趣味型问答。</li>
-<li><strong>特点</strong>：非通用 LLM，X 平台集成使用，API 暂未开放。</li>
-</ul>
-<h4>🔹 LLaMA（开源部署首选）</h4>
-<ul>
-<li><strong>亮点</strong>：完全开源，支持本地或私有云部署，数据隐私友好。</li>
-<li><strong>适用场景</strong>：科研、自定义训练、企业内网模型部署。</li>
-<li><strong>特点</strong>：需具备一定工程能力，社区活跃，适合技术团队。</li>
-</ul>
-<hr>
-<h3>3. 模型选择建议</h3>
-<markdown-accessiblity-table><table role="table">
-<thead>
-<tr>
-<th>使用场景</th>
-<th>推荐模型</th>
-<th>理由</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>通用对话助手</td>
-<td>ChatGPT (GPT-4)</td>
-<td>能力全面，支持多模态和函数调用</td>
-</tr>
-<tr>
-<td>长文档处理与总结</td>
-<td>Claude 3 Opus</td>
-<td>上下文最长，逻辑梳理强</td>
-</tr>
-<tr>
-<td>中文问答或数学任务</td>
-<td>DeepSeek R1</td>
-<td>本土化训练优良，中文表现稳定</td>
-</tr>
-<tr>
-<td>私有化部署需求</td>
-<td>LLaMA</td>
-<td>开源可控，自定义性强</td>
-</tr>
-<tr>
-<td>社交媒体创作</td>
-<td>Grok</td>
-<td>结合 X 平台语境，内容风格轻松幽默</td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
-<hr>
-<h2>三、输出规范化与结构化处理</h2>
-<h3>3.1 正则提取示例</h3>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-k">import</span> <span class="pl-s1">re</span>
-<span class="pl-s1">output</span> <span class="pl-c1">=</span> <span class="pl-s">"答案是：42"</span>
-<span class="pl-s1">match</span> <span class="pl-c1">=</span> <span class="pl-s1">re</span>.<span class="pl-c1">search</span>(<span class="pl-s">r"答案是[:：\s]*(\d+)"</span>, <span class="pl-s1">output</span>)
-<span class="pl-en">print</span>(<span class="pl-s1">match</span>.<span class="pl-c1">group</span>(<span class="pl-c1">1</span>) <span class="pl-k">if</span> <span class="pl-s1">match</span> <span class="pl-k">else</span> <span class="pl-s">"未提取"</span>)</pre></div>
+<pre class="notranslate"><code class="notranslate">
+
+
+
+## 二、主流大模型比较与选择建议
+
+当前市面上主流的大语言模型（LLMs）各具优势，适用场景也存在一定差异。以下从模型能力、开放性、价格策略、上下文长度、接口易用性等角度对比主流模型，并在最后给出选择建议。
+
+### 1. 模型总览表
+
+| 模型名称    | 提供方         | 代表版本     | 上下文长度 | 多轮对话能力 | 代码能力 | 中文能力 | 价格策略      | 接口开放性     |
+|-------------|----------------|--------------|------------|---------------|-----------|-----------|----------------|----------------|
+| **DeepSeek R1** | DeepSeek AI     | R1            | 128K        | ⭐⭐⭐⭐          | ⭐⭐⭐⭐       | ⭐⭐⭐⭐       | 免费/按量        | API 提供        |
+| **ChatGPT**    | OpenAI          | GPT-4-turbo   | 128K        | ⭐⭐⭐⭐⭐         | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐       | GPT-3.5 免费；GPT-4 收费 | API、插件、工具链 |
+| **Claude**     | Anthropic       | Claude 3 Opus | 200K+       | ⭐⭐⭐⭐⭐         | ⭐⭐⭐⭐       | ⭐⭐⭐⭐       | 免费/订阅        | API 提供（有限） |
+| **Grok**       | xAI (Elon Musk) | Grok-1.5      | ~32K?       | ⭐⭐⭐           | ⭐⭐⭐        | ⭐⭐         | X平台内订阅      | 暂无开放API     |
+| **LLaMA**      | Meta            | LLaMA 2 / 3   | 4K–32K+     | ⭐⭐⭐⭐          | ⭐⭐⭐⭐       | ⭐⭐⭐        | 开源免费        | 需自行部署       |
+
+&gt; 说明：星级为相对评分，5星为最优。上下文长度单位为 tokens。
+
+---
+
+### 2. 各模型简要分析
+
+#### 🔹 DeepSeek R1（国产亮眼新星）
+- **亮点**：强大的数学和代码能力，推理能力优于 GPT-4-turbo 在部分中文任务上。
+- **适用场景**：中文问答、代码生成、教育类应用。
+- **特点**：支持128K上下文，响应速度快，API稳定。
+
+#### 🔹 ChatGPT（生态最完整）
+- **亮点**：强大的工具调用能力（函数调用、插件、浏览器、代码解释器等）。
+- **适用场景**：通用对话、复杂任务编排、Agent系统。
+- **特点**：GPT-4-turbo 价格降低且更高效；生态完善，开发者友好。
+
+#### 🔹 Claude（长文本之王）
+- **亮点**：超长上下文（超过200K token），总结与分析长文档效果优秀。
+- **适用场景**：法律文档处理、长篇文本总结、写作辅助。
+- **特点**：语言风格温和，安全性高，适合企业级部署。
+
+#### 🔹 Grok（社交场景专用）
+- **亮点**：整合 Twitter（现为 X）数据，适合社交语境内容生成。
+- **适用场景**：社交媒体内容生成、趣味型问答。
+- **特点**：非通用 LLM，X 平台集成使用，API 暂未开放。
+
+#### 🔹 LLaMA（开源部署首选）
+- **亮点**：完全开源，支持本地或私有云部署，数据隐私友好。
+- **适用场景**：科研、自定义训练、企业内网模型部署。
+- **特点**：需具备一定工程能力，社区活跃，适合技术团队。
+
+---
+
+### 3. 模型选择建议
+
+| 使用场景         | 推荐模型         | 理由                                 |
+|------------------|------------------|--------------------------------------|
+| 通用对话助手       | ChatGPT (GPT-4)   | 能力全面，支持多模态和函数调用           |
+| 长文档处理与总结    | Claude 3 Opus     | 上下文最长，逻辑梳理强                   |
+| 中文问答或数学任务  | DeepSeek R1       | 本土化训练优良，中文表现稳定              |
+| 私有化部署需求     | LLaMA             | 开源可控，自定义性强                     |
+| 社交媒体创作       | Grok              | 结合 X 平台语境，内容风格轻松幽默         |
+
+
+---
+
+## 三、输出规范化与结构化处理
+
+### 3.1 正则提取示例
+
+```python
+import re
+output = "答案是：42"
+match = re.search(r"答案是[:：\s]*(\d+)", output)
+print(match.group(1) if match else "未提取")
+</code></pre>
 <h3>3.2 JSON结构化与数据库写入示意</h3>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-k">import</span> <span class="pl-s1">json</span>, <span class="pl-s1">sqlite3</span>
 <span class="pl-s1">llm_output</span> <span class="pl-c1">=</span> <span class="pl-s">'{"公司":"小米公司","时间":"2024年2月","地点":"上海","事件":"发布电动汽车","人物":"雷军"}'</span>
