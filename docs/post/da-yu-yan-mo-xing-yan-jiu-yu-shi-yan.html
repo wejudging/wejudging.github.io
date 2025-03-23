@@ -10,8 +10,18 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="## OpenAI 中文文档介绍
+<meta name="description" content="## API接口
+https://one-api.weijiajin.com
 
+## Chat
+https://chat.weijiajin.com/
+
+
+
+## OpenAI文档介绍
+英文仓库
+https://github.com/openai/openai-cookbook
+中文文档翻译
 https://openai.xiniushu.com
 
 ## LinuxDO论坛
@@ -22,8 +32,18 @@ https://linux.do
 https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。">
 <meta property="og:title" content="大语言模型研究与实验">
-<meta property="og:description" content="## OpenAI 中文文档介绍
+<meta property="og:description" content="## API接口
+https://one-api.weijiajin.com
 
+## Chat
+https://chat.weijiajin.com/
+
+
+
+## OpenAI文档介绍
+英文仓库
+https://github.com/openai/openai-cookbook
+中文文档翻译
 https://openai.xiniushu.com
 
 ## LinuxDO论坛
@@ -103,8 +123,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h2>OpenAI 中文文档介绍</h2>
-<p><a href="https://openai.xiniushu.com" rel="nofollow">https://openai.xiniushu.com</a></p>
+<div class="markdown-body" id="postBody"><h2>API接口</h2>
+<p><a href="https://one-api.weijiajin.com" rel="nofollow">https://one-api.weijiajin.com</a></p>
+<h2>Chat</h2>
+<p><a href="https://chat.weijiajin.com/" rel="nofollow">https://chat.weijiajin.com/</a></p>
+<h2>OpenAI文档介绍</h2>
+<p>英文仓库<br>
+<a href="https://github.com/openai/openai-cookbook">https://github.com/openai/openai-cookbook</a><br>
+中文文档翻译<br>
+<a href="https://openai.xiniushu.com" rel="nofollow">https://openai.xiniushu.com</a></p>
 <h2>LinuxDO论坛</h2>
 <p><a href="https://linux.do" rel="nofollow">https://linux.do</a></p>
 <h2>中文大语言模型</h2>
@@ -116,37 +143,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>一、Prompt实验设计与案例</h2>
 <p>Prompt（提示词）设计是大语言模型使用中的关键环节，不同的提示方式会显著影响模型输出的效果。以下列举几种主流的 Prompt 方法，并结合实际案例进行说明。</p>
 <h4>🔹 Zero-shot Prompting（零样本提示）</h4>
-<ul>
-<li><strong>定义</strong>：不提供示例，直接向模型提出问题。</li>
-<li><strong>特点</strong>：简单快速，适用于模型已具备充分泛化能力的任务。</li>
-<li><strong>示例</strong>：<br>
-问题：首都在哪里？<br>
-回答：中国的首都是北京。</li>
-</ul>
 <h4>🔹 Chain-of-Thought Prompting（思维链提示）</h4>
-<p>定义：引导模型按逻辑步骤推理，输出推理过程。<br>
-特点：显著提升数学、推理类任务表现。<br>
-示例：</p>
-<p>问题：如果今天是星期一，100 天后是星期几？<br>
-让我们一步步来思考：</p>
-<ul>
-<li>7 天是一个完整的星期。</li>
-<li>100 除以 7 等于 14 余 2。</li>
-<li>所以是星期一之后的第 2 天，即星期三。<br>
-回答：星期三</li>
-</ul>
 <h4>🔹 Few-shot Prompting（少样本提示）</h4>
-<p>定义：提供几个输入-输出示例，引导模型模仿模式。</p>
-<p>特点：增强模型对任务模式的理解，适合格式不固定的任务。</p>
-<p>输入：猫是一种动物。→ 输出：猫的种类是动物。<br>
-输入：玫瑰是一种植物。→ 输出：玫瑰的种类是植物。<br>
-输入：Python 是一种语言。→ 输出：</p>
 <h4>🔹 Instruction Prompting（指令提示）</h4>
-<p>定义：以明确的指令语气描述你希望模型完成的任务。<br>
-特点：适用于指令微调（Instruction-tuned）模型，如 ChatGPT。<br>
-示例：<br>
-请将下面的英文翻译成简体中文：<br>
-"Large language models are changing the future of AI."</p>
 <h2>二、主流大模型比较与选择建议</h2>
 <p>当前市面上主流的大语言模型（LLMs）各具优势，适用场景也存在一定差异。以下从模型能力、开放性、价格策略、上下文长度、接口易用性等角度对比主流模型，并在最后给出选择建议。</p>
 <h3>1. 模型总览表</h3>
