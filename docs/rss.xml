@@ -1,5 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Tue, 25 Feb 2025 11:21:19 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>ARM架构机器运行AMD架构的docker镜像</title><link>https://weijiajin.com/post/ARM-jia-gou-ji-qi-yun-xing-AMD-jia-gou-de-docker-jing-xiang.html</link><description>### 安装 QEMU&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sun, 23 Mar 2025 10:37:44 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>大模型论文实验设置总体流程</title><link>https://weijiajin.com/post/da-mo-xing-lun-wen-shi-yan-she-zhi-zong-ti-liu-cheng.html</link><description>&lt;h2 data-start='111' data-end='132' class=''&gt; 一、大模型论文实验设置总体流程&lt;/h2&gt;
+&lt;h3 data-start='134' data-end='147' class=''&gt;1. 明确实验目的&lt;/h3&gt;
+&lt;p data-start='148' data-end='175' class=''&gt;根据你的论文研究类型，明确实验目的，一般包括以下几种：&lt;/p&gt;
+&lt;div class='overflow-x-auto contain-inline-size'&gt;
+研究类型 | 实验目的示例
+-- | --
+模型结构改进 | 证明新结构在多个任务上优于基线模型
+Prompt 设计 | 比较不同提示策略对模型性能的影响
+微调方法改进 | 展示新方法在训练效率、泛化能力上的优势
+应用型 | 验证模型在某一实际任务中的效果、可行性
+
+&lt;/div&gt;
+&lt;hr data-start='2278' data-end='2281' class=''&gt;
+&lt;h2 data-start='2283' data-end='2293' class=''&gt;🛠 工具推荐&lt;/h2&gt;
+&lt;ul data-start='2295' data-end='2582'&gt;
+&lt;li data-start='2295' data-end='2454' class=''&gt;
+&lt;p data-start='2297' data-end='2309' class=''&gt;&lt;strong data-start='2297' data-end='2308'&gt;LLM调试平台&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul data-start='2312' data-end='2454'&gt;
+&lt;li data-start='2312' data-end='2382' class=''&gt;
+&lt;p data-start='2314' data-end='2382' class=''&gt;&lt;a data-start='2314' data-end='2364' rel='noopener' target='_new' href='https://github.com/thunlp/OpenPrompt'&gt;OpenPrompt&lt;/a&gt;（清华出品，专门做Prompt实验）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-start='2385' data-end='2454' class=''&gt;
+&lt;p data-start='2387' data-end='2454' class=''&gt;&lt;a data-start='2387' data-end='2435' rel='noopener' target='_new' href='https://github.com/OptimalScale/LMFlow'&gt;LMFlow&lt;/a&gt;（一站式微调 + 推理 + 评估平台）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li data-start='2456' data-end='2582' class=''&gt;
+&lt;p data-start='2458' data-end='2471' class=''&gt;&lt;strong data-start='2458' data-end='2470'&gt;自动评估指标工具&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul data-start='2474' data-end='2582'&gt;
+&lt;li data-start='2474' data-end='2526' class=''&gt;
+&lt;p data-start='2476' data-end='2526' class=''&gt;&lt;a data-start='2476' data-end='2526' rel='noopener' target='_new' href='https://github.com/Tiiiger/bert_score'&gt;BERTScore&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-start='2529' data-end='2582' class=''&gt;
+&lt;p data-start='2531' data-end='2582' class=''&gt;&lt;a data-start='2531' data-end='2582' rel='noopener' target='_new' href='https://github.com/google-research/bleurt'&gt;BLEURT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr data-start='2584' data-end='2587' class=''&gt;
+&lt;h2 data-start='2589' data-end='2599' class=''&gt;✅ 总结一句话&lt;/h2&gt;
+&lt;blockquote data-start='2601' data-end='2665'&gt;
+&lt;p data-start='2603' data-end='2665' class=''&gt;大模型的实验设计就是“明任务、选模型、控变量、比方法、评指标、做分析”，写论文时只要逻辑清晰、对比充分，就能支撑起你的观点。</description><guid isPermaLink="true">https://weijiajin.com/post/da-mo-xing-lun-wen-shi-yan-she-zhi-zong-ti-liu-cheng.html</guid><pubDate>Sun, 23 Mar 2025 10:37:06 +0000</pubDate></item><item><title>ARM架构机器运行AMD架构的docker镜像</title><link>https://weijiajin.com/post/ARM-jia-gou-ji-qi-yun-xing-AMD-jia-gou-de-docker-jing-xiang.html</link><description>### 安装 QEMU&#13;
 ```&#13;
 sudo apt-get update&#13;
 sudo apt-get install qemu qemu-user qemu-user-static&#13;
