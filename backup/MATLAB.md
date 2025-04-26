@@ -1,21 +1,13 @@
 # MATLAB 下载教程
 
-1. 浏览器打开官网 [https://ww2.mathworks.cn](https://ww2.mathworks.cn)
-> **点击右上角登录**
-![01](https://mixfile.weijiajin.com/api/download/01.png?s=kD8rxd9rdfbtmNeLENa4zm4aK81SPjVrEusbfnzknflxKVI50ldUukwLGPZLWYldxzUSuR3WuawMYbcfH0G9DEZG2MeXtzojuyhGmcizUVW6wnnzAgwhIA3fdq5RezBWrPfI53jKEiiHuPfQGLA6NQZZty5c92s2fOVojTuLCGOPRyLItdL29LbPGK64FDwPBrysmFdUzckoBvPcQrVVnAKVEQ75Jcv6O4WSNgmKx5jp5IfmzkFpIJMZbzvDvi5QDmd759rpjKMuBBgsMyVlIrE3U0C1dR1pxdx45aNEBAFXoMkZNWTUDg9yvkl1eXNJWehG3vExcPjwgAwXOamYc5iMrL7zuNXHNOAauHmBJHOetM7mSNaNCjmfiXPkyb6)
-
-2. 输入正版Matlab账号与密码进行登录，建议复制粘贴，手动输入容易出错
-> 输入正版Matlab账号
+1. **浏览器打开官网下载地址** [https://ww2.mathworks.cn/downloads/web_downloads/](https://ww2.mathworks.cn/downloads/web_downloads)，**建议复制粘贴账号密码**
+> **输入正版Matlab账号**
 ![02](https://mixfile.weijiajin.com/api/download/02.png?s=hgjEQufW4XRbfMSsFgVHyIL7uD97Y9q5E42IgPsnYThdPSD2f9LLYU1Vm70wPKBD9qNZ2TLEXNnpULXHelCWlmQswzPPgqsGDGG59qs18vUdobRWP1erri4aJp2HpVo6WVSatWAEScSL75hEDQzhHt4ykCX3ozrwmCsnwmCMeWw5xDLmmTO0uPBnuglaMAuBeVRLxGjnNikUb6pqmPMMfw3d0iYRBgaQahFw5eXlxLLph9No9PEsK0nNVTCcMmJsiFn32F6Tzq9QmqERpj0PSnkXXAX7qsTjT7LsoraGfB2vtlKpJUzCFjzUlOvAh4AXujQ50cKeKQlB5p2N8hddOTgQhoMb1DfyrIngnEl3bnf7mAhIJgxE0HvHhjy0PT2)
 
-> 输入正版Matlab密码
+> **输入正版Matlab密码**
 ![03](https://mixfile.weijiajin.com/api/download/03.png?s=tMH39hhUCU9HgMJHWmFeKnAQlq6KfAxMZMBocm8aHD2Kp1o9YECP1DwNjEHVDgAclPqzLesvLjppjrWAoZ6NuSXomlGDjUcQvZ7PPJw5aC6v7SgAHlKKF8dcw1vFZ3pQ8jm0ArNjL5f9RafubcuHhmYWR8hMkIfUqCelthP7RFPg9WB452SEUfzxMKeuYXIIcQ6MYx2Pd3J1wocnU2P4pekNJsiZkWLoqMMPBvfsuAWDYyjmznk5gEkZAiTMm5B7Iv3NWQUjNioC83LChdMohWXLjLlrIWK8RPtI18Q4zvMIAmkY5bG0ADRtuJxEkPlruvtI0ibBJ1YSwOn6YOSBAXAxVMvPfXT23zfJdjQMxALhGcJKONbNoSRuQFB3Aov)
 
-3. 登录成功后，点击右上角，我的账户
-![image](https://github.com/user-attachments/assets/294ddcd5-132f-4cf5-a9fb-c90577f1d482)
 
-4. 点击我的账户页面的下载按钮
-![image](https://github.com/user-attachments/assets/bfdca1f8-db43-4e1a-baef-93ef69a082ce)
 
 5. 安装下载
 ![image](https://github.com/user-attachments/assets/35b747ef-23cd-4108-81a9-f20f607c3082)
