@@ -1,22 +1,18 @@
 # MATLAB 下载教程
 
-1. **浏览器打开官网下载地址** [https://ww2.mathworks.cn/downloads/web_downloads/](https://ww2.mathworks.cn/downloads/web_downloads)，**建议复制粘贴账号密码**
-> **输入正版Matlab账号**
-![02](https://mixfile.weijiajin.com/api/download/02.png?s=hgjEQufW4XRbfMSsFgVHyIL7uD97Y9q5E42IgPsnYThdPSD2f9LLYU1Vm70wPKBD9qNZ2TLEXNnpULXHelCWlmQswzPPgqsGDGG59qs18vUdobRWP1erri4aJp2HpVo6WVSatWAEScSL75hEDQzhHt4ykCX3ozrwmCsnwmCMeWw5xDLmmTO0uPBnuglaMAuBeVRLxGjnNikUb6pqmPMMfw3d0iYRBgaQahFw5eXlxLLph9No9PEsK0nNVTCcMmJsiFn32F6Tzq9QmqERpj0PSnkXXAX7qsTjT7LsoraGfB2vtlKpJUzCFjzUlOvAh4AXujQ50cKeKQlB5p2N8hddOTgQhoMb1DfyrIngnEl3bnf7mAhIJgxE0HvHhjy0PT2)
+**1. 浏览器打开官网下载地址：[https://ww2.mathworks.cn/downloads](https://ww2.mathworks.cn/downloads)，输入正版Matlab账号,建议复制粘贴**
+![输入正版Matlab账号](https://mixfile.weijiajin.com/api/download/02.png?s=hgjEQufW4XRbfMSsFgVHyIL7uD97Y9q5E42IgPsnYThdPSD2f9LLYU1Vm70wPKBD9qNZ2TLEXNnpULXHelCWlmQswzPPgqsGDGG59qs18vUdobRWP1erri4aJp2HpVo6WVSatWAEScSL75hEDQzhHt4ykCX3ozrwmCsnwmCMeWw5xDLmmTO0uPBnuglaMAuBeVRLxGjnNikUb6pqmPMMfw3d0iYRBgaQahFw5eXlxLLph9No9PEsK0nNVTCcMmJsiFn32F6Tzq9QmqERpj0PSnkXXAX7qsTjT7LsoraGfB2vtlKpJUzCFjzUlOvAh4AXujQ50cKeKQlB5p2N8hddOTgQhoMb1DfyrIngnEl3bnf7mAhIJgxE0HvHhjy0PT2)
 
-> **输入正版Matlab密码**
-![03](https://mixfile.weijiajin.com/api/download/03.png?s=tMH39hhUCU9HgMJHWmFeKnAQlq6KfAxMZMBocm8aHD2Kp1o9YECP1DwNjEHVDgAclPqzLesvLjppjrWAoZ6NuSXomlGDjUcQvZ7PPJw5aC6v7SgAHlKKF8dcw1vFZ3pQ8jm0ArNjL5f9RafubcuHhmYWR8hMkIfUqCelthP7RFPg9WB452SEUfzxMKeuYXIIcQ6MYx2Pd3J1wocnU2P4pekNJsiZkWLoqMMPBvfsuAWDYyjmznk5gEkZAiTMm5B7Iv3NWQUjNioC83LChdMohWXLjLlrIWK8RPtI18Q4zvMIAmkY5bG0ADRtuJxEkPlruvtI0ibBJ1YSwOn6YOSBAXAxVMvPfXT23zfJdjQMxALhGcJKONbNoSRuQFB3Aov)
-
+**2. 输入正版`Matlab`密码,建议复制粘贴**
+![输入正版Matlab密码](https://mixfile.weijiajin.com/api/download/03.png?s=tMH39hhUCU9HgMJHWmFeKnAQlq6KfAxMZMBocm8aHD2Kp1o9YECP1DwNjEHVDgAclPqzLesvLjppjrWAoZ6NuSXomlGDjUcQvZ7PPJw5aC6v7SgAHlKKF8dcw1vFZ3pQ8jm0ArNjL5f9RafubcuHhmYWR8hMkIfUqCelthP7RFPg9WB452SEUfzxMKeuYXIIcQ6MYx2Pd3J1wocnU2P4pekNJsiZkWLoqMMPBvfsuAWDYyjmznk5gEkZAiTMm5B7Iv3NWQUjNioC83LChdMohWXLjLlrIWK8RPtI18Q4zvMIAmkY5bG0ADRtuJxEkPlruvtI0ibBJ1YSwOn6YOSBAXAxVMvPfXT23zfJdjQMxALhGcJKONbNoSRuQFB3Aov)
 
 
-5. 安装下载
-![image](https://github.com/user-attachments/assets/35b747ef-23cd-4108-81a9-f20f607c3082)
-
-6. 安装说明
-![image](https://github.com/user-attachments/assets/13363d66-4c7e-496d-b009-bfc14645e79d)
+**3. 下载自己需要的Matlab版本， 选择版本，选择系统平台**
+![下载自己需要的Matlab版本](https://mixfile.weijiajin.com/api/download/04.png?s=IkbVVUR4A0eHJuorxkdt9mr6Oo9N3V7QCQQeBgXuLo6BubbtrKi98MXgBSZSoUlyPsHkefNdKwS1fig11tVny87fsgPjdBkPfFHxmtcBuPJm0JPSZjRTNLH5spWoPFS1P5Pg6i6IoGdSZrdsLpraalwXKJX9JmPdJQKsItQIQnnQuOgqEblsbD2JwCYRdvtJRYmD8BWH5qYC3UNv138eiKVPWRYXSdkyr5IH91sDhMkXSjyP5ZhpyO4a0ht2iTHqCS6QsAMQB1JmegqZt60gNXSCVcZEWcoKBRrpqLcnxSaN5lGpoIFIqe5N2b4IohsCq1xGZzY0kEHlrTMyLoDHjIhDCeBsQfeVYkfeK469KsK41YwiJzlYSHtX3Jy10BT)
 
 
-### MATLAB 安装
+
+# MATLAB 安装教程
 
 1. 打开安装包后，会解压一个临时文件夹 `_temp_matlab_R2022a_win64`
 ![image](https://github.com/user-attachments/assets/62ae0b4d-f044-4caa-871b-4baf6348930e)
