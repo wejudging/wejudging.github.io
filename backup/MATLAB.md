@@ -56,18 +56,15 @@
 
 **1. 密码更改**
 [https://ww2.mathworks.cn/mwaccount/profiles/password/change](https://ww2.mathworks.cn/mwaccount/profiles/password/change)
-![image](https://github.com/user-attachments/assets/664f746f-5b80-410f-aba4-19d0936cfba7)
 
 **2. 双重验证**
 [https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification](https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification)
-![image](https://github.com/user-attachments/assets/35df31b4-d0ea-45ff-b3f1-42e901308b60)
 
-**3. `Matlab Online`**
-[https://matlab.mathworks.com/](https://matlab.mathworks.com/)
-![image](https://github.com/user-attachments/assets/96131df7-a0fe-4d26-9736-f538d1eab4a4)
+**3. MATLAB Online**
+**[https://matlab.mathworks.com/](https://matlab.mathworks.com/)**
 
 **4.离线安装**
-[https://ww2.mathworks.cn/matlabcentral/answers/130613-internet](https://ww2.mathworks.cn/matlabcentral/answers/130613-internet)
+**[https://ww2.mathworks.cn/matlabcentral/answers/130613-internet](https://ww2.mathworks.cn/matlabcentral/answers/130613-internet)**
 
 **5.MATLAB反激活**
-[https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab](https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab)
+**[https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab](https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab)**
