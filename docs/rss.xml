@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sat, 26 Apr 2025 12:46:22 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sat, 26 Apr 2025 12:47:01 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
 https://one-api.weijiajin.com
 
 ## Chat
@@ -231,8 +231,10 @@ pyautogui.click(clicks=3)&#13;
 ![01](https://mixfile.weijiajin.com/api/download/01.png?s=kD8rxd9rdfbtmNeLENa4zm4aK81SPjVrEusbfnzknflxKVI50ldUukwLGPZLWYldxzUSuR3WuawMYbcfH0G9DEZG2MeXtzojuyhGmcizUVW6wnnzAgwhIA3fdq5RezBWrPfI53jKEiiHuPfQGLA6NQZZty5c92s2fOVojTuLCGOPRyLItdL29LbPGK64FDwPBrysmFdUzckoBvPcQrVVnAKVEQ75Jcv6O4WSNgmKx5jp5IfmzkFpIJMZbzvDvi5QDmd759rpjKMuBBgsMyVlIrE3U0C1dR1pxdx45aNEBAFXoMkZNWTUDg9yvkl1eXNJWehG3vExcPjwgAwXOamYc5iMrL7zuNXHNOAauHmBJHOetM7mSNaNCjmfiXPkyb6)
 
 2. 输入正版Matlab账号与密码进行登录，建议复制粘贴，手动输入容易出错
+3. 
 &gt; 输入正版Matlab账号
 ![02](https://mixfile.weijiajin.com/api/download/02.png?s=hgjEQufW4XRbfMSsFgVHyIL7uD97Y9q5E42IgPsnYThdPSD2f9LLYU1Vm70wPKBD9qNZ2TLEXNnpULXHelCWlmQswzPPgqsGDGG59qs18vUdobRWP1erri4aJp2HpVo6WVSatWAEScSL75hEDQzhHt4ykCX3ozrwmCsnwmCMeWw5xDLmmTO0uPBnuglaMAuBeVRLxGjnNikUb6pqmPMMfw3d0iYRBgaQahFw5eXlxLLph9No9PEsK0nNVTCcMmJsiFn32F6Tzq9QmqERpj0PSnkXXAX7qsTjT7LsoraGfB2vtlKpJUzCFjzUlOvAh4AXujQ50cKeKQlB5p2N8hddOTgQhoMb1DfyrIngnEl3bnf7mAhIJgxE0HvHhjy0PT2)
+
 &gt; 输入正版Matlab密码
 ![03](https://mixfile.weijiajin.com/api/download/03.png?s=tMH39hhUCU9HgMJHWmFeKnAQlq6KfAxMZMBocm8aHD2Kp1o9YECP1DwNjEHVDgAclPqzLesvLjppjrWAoZ6NuSXomlGDjUcQvZ7PPJw5aC6v7SgAHlKKF8dcw1vFZ3pQ8jm0ArNjL5f9RafubcuHhmYWR8hMkIfUqCelthP7RFPg9WB452SEUfzxMKeuYXIIcQ6MYx2Pd3J1wocnU2P4pekNJsiZkWLoqMMPBvfsuAWDYyjmznk5gEkZAiTMm5B7Iv3NWQUjNioC83LChdMohWXLjLlrIWK8RPtI18Q4zvMIAmkY5bG0ADRtuJxEkPlruvtI0ibBJ1YSwOn6YOSBAXAxVMvPfXT23zfJdjQMxALhGcJKONbNoSRuQFB3Aov)
 
