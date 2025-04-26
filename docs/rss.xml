@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sat, 26 Apr 2025 14:04:01 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Sat, 26 Apr 2025 14:04:53 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
 https://one-api.weijiajin.com
 
 ## Chat
@@ -280,13 +280,13 @@ pyautogui.click(clicks=3)&#13;
 
 # 常用问题
 **1. MATLAB安装常见问题及解决方案**
-[https://eem.cufe.edu.cn/info/1020/2088.htm](https://eem.cufe.edu.cn/info/1020/2088.htm)
+**[https://eem.cufe.edu.cn/info/1020/2088.htm](https://eem.cufe.edu.cn/info/1020/2088.htm)**
 
 **2. 密码更改**
-[https://ww2.mathworks.cn/mwaccount/profiles/password/change](https://ww2.mathworks.cn/mwaccount/profiles/password/change)
+**[https://ww2.mathworks.cn/mwaccount/profiles/password/change](https://ww2.mathworks.cn/mwaccount/profiles/password/change)**
 
 **3. 双重验证**
-[https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification](https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification)
+**[https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification](https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification)**
 
 **4. MATLAB Online**
 **[https://matlab.mathworks.com/](https://matlab.mathworks.com/)**
