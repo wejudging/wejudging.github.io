@@ -70,3 +70,6 @@
 
 **6.MATLAB反激活**
 **[https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab](https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab)**
+
+**6.无法与所需的mathworks服务通信5201**
+**[https://blog.csdn.net/cainiaoyizhan2/article/details/135012632](https://blog.csdn.net/cainiaoyizhan2/article/details/135012632)**
