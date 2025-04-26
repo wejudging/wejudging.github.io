@@ -1,6 +1,6 @@
 # 下载教程
 
-**1. 浏览器打开官网下载地址：[https://ww2.mathworks.cn/downloads](https://ww2.mathworks.cn/downloads)，输入正版Matlab账号,建议复制粘贴**
+**1. 浏览器打开官网下载地址：[https://ww2.mathworks.cn/downloads](https://ww2.mathworks.cn/downloads)，输入正版`Matlab`账号,建议复制粘贴**
 ![输入正版Matlab账号](https://mixfile.weijiajin.com/api/download/02.png?s=50M6fjqonjmtgBqnD7F4Ykb0jtr7SNYMr76Y9sromFxtuSHE7ZFq09evB1MgZFomRZ0HpVp7AfxbEFSj4bDzIdvqzEpr9SVtG4dM6dgTAHA0ZzamgO2FjSc6YF0C0znKWJxHicfiK3UxOXo68UXCLv8PNy1sunGzmxPe9zMRLRqOgT546PI60e2uUyMmFk1w1cLlgFWDEZE5aOtScfPjJhhGFanm02dSoilYOtPJ0ccL54jJJ7FeMYu0tpssJOm02lr4ZVwwrcVpXhIEIelp7jbnu1M0dI1g754SNRXwfLgVntUkfpMJ6h68Qq8SuuMdXvclZf8yPFsGtpGgxXdxGUeOR960nnSRFLjk2EqQXxOyseZXgHTYrZF0RYIrzl6)
 
 **2. 输入正版`Matlab`密码,建议复制粘贴**
@@ -14,85 +14,60 @@
 
 # 安装教程
 
-1. 双击打开安装包后，会解压一个临时文件夹 `_temp_matlab_R2022a_win64`
-![image](https://github.com/user-attachments/assets/62ae0b4d-f044-4caa-871b-4baf6348930e)
+**1.双击打开安装包**
+![image](https://mixfile.weijiajin.com/api/download/05.png?s=qEF5tBLQAUfXU3JK9iHy4GeaMhO5AqjSnkK8CUnfrlLagUwn8FVkEL9RIJFHfsPxPjK6dMgGBdq8uIkT5EwhgQDGehWzUHmVpNvjKdkjvBJR3z2ZLKxjpG4jN29pv0WbNvJHemT2h63EQpDTVicLUOq9nD3FwqpPzx62qpQ9WR5kGuqS9RTKEbpEjr3UWWnNo183XlqNIOdwDTPhNpFJ1urbyHOSg2XgUJCPHeczIL6xu7IRhAJwXGPlMuXqdqU2keBMgtTKv1qFmQJYa5NcwwOj6AlVgjr1dDnG4KS3nxE1sGobRG2acLyqtK3dySJbjPQCrqzlaHXpqw441Mlczzvws0xk6UXSbUzrW45ORdRWigTQXftexfhtOWuDvUQ)
 
-2. 第一次解压会自动打开`_temp_matlab_R2022a_win64`里面的`setup.exe`
-![image](https://github.com/user-attachments/assets/067a08cb-f1bd-4dac-8e14-71818a4a3763)
+**2. 正常安装登录界面，输入正版账号密码**
+![Image](https://github.com/user-attachments/assets/bbd00239-1283-4360-8e0a-00f0ebe2f586)
 
-3. 正常安装登录界面，输入正版账号密码
-![image](https://github.com/user-attachments/assets/30a31095-e20e-4aad-a041-68844134e4f4)
+**3. 同意协议，下一步**
+![Image](https://github.com/user-attachments/assets/a245d5dd-b22b-4310-84f9-aa67e7436d4b)
 
-4. 如果第一次安装失败，需要重新安装的时候，只需关闭`matlab`安装程序
-![image](https://github.com/user-attachments/assets/68f9401b-14d1-4063-abd8-ae8239195e32)
+**4. 选择许可证，点击下一步**
+![Image](https://github.com/user-attachments/assets/c80cca3e-02c0-4779-9b41-ece63819291f)
 
-5. 重新打开临时文件夹`_temp_matlab_R2022a_win64`里面的`setup.exe`重新安装
-![image](https://github.com/user-attachments/assets/7b8d5881-012a-4041-9949-fb628181c72b)
+**5. 选择安装路径**
+![Image](https://github.com/user-attachments/assets/9526ee92-0960-4c50-a072-fa05df9588ec)
 
-6. 如果仍然打开`matlab_R2022a_win64.exe`可能或出现重复解压的报错，建议删除临时文件夹`_temp_matlab_R2022a_win64`，重新打开`matlab_R2022a_win64.exe`
-![image](https://github.com/user-attachments/assets/f270798f-874d-4c85-9e4d-e8ab334dacbb)
+**6. 建议全选，下一步**
+![Image](https://github.com/user-attachments/assets/0731cce3-11b0-454a-9dbc-9f8332fe475c)
 
-7. 同意协议，下一步
-![image](https://github.com/user-attachments/assets/07df7835-640f-4c0c-a56f-0f7046e66f3d)
+**7. 建议添加桌面快捷方式，下一步**
+![Image](https://github.com/user-attachments/assets/9089a96f-cafb-4067-b901-d02eab183f7c)
 
-8. 选择许可证，点击下一步
-![image](https://github.com/user-attachments/assets/1bc06cc1-6b1d-4c9c-9fab-da959ca40eda)
+**8. 默认下一步，开始安装，等待安装成功**
+![Image](https://github.com/user-attachments/assets/2ad0f4ae-0cfc-4ab6-82e8-0b94b9cb5244)
 
-9. 登录名Windows系统用户要特别注意正版系统会自动填写相应用户名默认下一步
-![image](https://github.com/user-attachments/assets/f1205db5-2280-45d8-b8b8-916c1a469dea)
+**9. 等待下载完成，就安装成功了**
+![Image](https://github.com/user-attachments/assets/b00fa8d0-1d1c-47cc-bb5b-cbfd88e3738e)
 
-10. 破解版系统 ，登录名会显示空白需要手动填写，一般要填写`Administrator`
+**10. 安装成功界面**
+![Image](https://github.com/user-attachments/assets/3b772459-7d8b-4e3c-91fc-1caffe7b71da)
 
-11. 如果自动填写，默认下一步 ，只有登录名显示空白才需要手动填写
+# 附加功能
 
-12. 破解版系统 ，登录名会显示空白需要手动填写，一般要填写`Administrator`
+**1. 打开软件点击右上角登录正版账号，点击主页，点击附加功能，点击获取附加功能**
+![image](https://github.com/user-attachments/assets/999b7bd0-29f3-4b7b-8846-9b5678ea63c4)
 
-13. 选择需要安装的库与工具包，建议全选，虽下载文件大点，但省事
-![image](https://github.com/user-attachments/assets/4f4e60e6-320f-45d1-aafc-6580cf516705)
+**2. 在右上角的搜索框中搜索自己想要下载的库或者工具箱**
+![image](https://github.com/user-attachments/assets/d14c01b1-64cf-453c-960a-7dd146fece27)
 
-14. 默认下一步，开始安装，等待安装成功
-![image](https://github.com/user-attachments/assets/5da3ab34-2378-443f-91e9-529d0902509d)
+# 常用问题
 
-15. 安装成功
-![image](https://github.com/user-attachments/assets/cd419238-e0d4-4e14-8d95-a9a867133d92)
-
-
-### 常用界面 
-
-1. 官网软件包下载
-[https://ww2.mathworks.cn/downloads](https://ww2.mathworks.cn/downloads)
-![image](https://github.com/user-attachments/assets/fe9f6eca-b616-43d1-9e2e-4558e3f385ae)
-
-2. 密码更改
+**1. 密码更改**
 [https://ww2.mathworks.cn/mwaccount/profiles/password/change](https://ww2.mathworks.cn/mwaccount/profiles/password/change)
 ![image](https://github.com/user-attachments/assets/664f746f-5b80-410f-aba4-19d0936cfba7)
 
-3. 双重验证
+**2. 双重验证**
 [https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification](https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification)
 ![image](https://github.com/user-attachments/assets/35df31b4-d0ea-45ff-b3f1-42e901308b60)
 
-4. `Matlab Online`
+**3. `Matlab Online`**
 [https://matlab.mathworks.com/](https://matlab.mathworks.com/)
 ![image](https://github.com/user-attachments/assets/96131df7-a0fe-4d26-9736-f538d1eab4a4)
 
-### 无法连接 Internet 的电脑上进行产品安装和激活
+**4.离线安装**
 [https://ww2.mathworks.cn/matlabcentral/answers/130613-internet](https://ww2.mathworks.cn/matlabcentral/answers/130613-internet)
 
-### MATLAB 工具库下载
-
-1. 打开软件点击右上角登录正版账号，点击主页，点击附加功能，点击获取附加功能
-![image](https://github.com/user-attachments/assets/999b7bd0-29f3-4b7b-8846-9b5678ea63c4)
-
-2. 在右上角的搜索框中搜索自己想要下载的库或者工具箱
-![image](https://github.com/user-attachments/assets/d14c01b1-64cf-453c-960a-7dd146fece27)
-
-MATLAB 激活与反激活
-
-1. 如果之前使用过其他账号授权激活的，请参考以下步骤进行反激活与激活
-![image](https://github.com/user-attachments/assets/c912f216-c58b-48b7-a90f-da4fa9acde1a)
-
-2. 在使用我们正版账号激活之前，是要把之前电脑的所有许可证反激活的
-![image](https://github.com/user-attachments/assets/28ae997a-9df6-43ce-9189-91ebd6fe3dad)
-
-3. 反激活之后，打开开始菜单，打开 Activate MATLAB R2022a
-![image](https://github.com/user-attachments/assets/846be8cc-a663-4366-b24e-ac7ce500636c)
+**5.MATLAB反激活**
+[https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab](https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab)
