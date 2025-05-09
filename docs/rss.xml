@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Fri, 09 May 2025 06:01:47 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Fri, 09 May 2025 08:45:08 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
 https://one-api.weijiajin.com
 
 ## Chat
@@ -229,8 +229,8 @@ pyautogui.click(clicks=3)&#13;
 
 
 **3. 下载自己需要的Matlab版本， 选择版本，选择系统平台**
-![下载自己需要的Matlab版本](https://mixfile.weijiajin.com/api/download/04.png?s=IkbVVUR4A0eHJuorxkdt9mr6Oo9N3V7QCQQeBgXuLo6BubbtrKi98MXgBSZSoUlyPsHkefNdKwS1fig11tVny87fsgPjdBkPfFHxmtcBuPJm0JPSZjRTNLH5spWoPFS1P5Pg6i6IoGdSZrdsLpraalwXKJX9JmPdJQKsItQIQnnQuOgqEblsbD2JwCYRdvtJRYmD8BWH5qYC3UNv138eiKVPWRYXSdkyr5IH91sDhMkXSjyP5ZhpyO4a0ht2iTHqCS6QsAMQB1JmegqZt60gNXSCVcZEWcoKBRrpqLcnxSaN5lGpoIFIqe5N2b4IohsCq1xGZzY0kEHlrTMyLoDHjIhDCeBsQfeVYkfeK469KsK41YwiJzlYSHtX3Jy10BT)
 
+&lt;img width='1216' alt='Image' src='https://github.com/user-attachments/assets/589a10c8-f8eb-4839-bd13-0eab3735ada0' /&gt;
 
 
 # 安装教程

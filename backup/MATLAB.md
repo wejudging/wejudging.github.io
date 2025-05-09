@@ -11,8 +11,8 @@
 
 
 **3. 下载自己需要的Matlab版本， 选择版本，选择系统平台**
-![下载自己需要的Matlab版本](https://mixfile.weijiajin.com/api/download/04.png?s=IkbVVUR4A0eHJuorxkdt9mr6Oo9N3V7QCQQeBgXuLo6BubbtrKi98MXgBSZSoUlyPsHkefNdKwS1fig11tVny87fsgPjdBkPfFHxmtcBuPJm0JPSZjRTNLH5spWoPFS1P5Pg6i6IoGdSZrdsLpraalwXKJX9JmPdJQKsItQIQnnQuOgqEblsbD2JwCYRdvtJRYmD8BWH5qYC3UNv138eiKVPWRYXSdkyr5IH91sDhMkXSjyP5ZhpyO4a0ht2iTHqCS6QsAMQB1JmegqZt60gNXSCVcZEWcoKBRrpqLcnxSaN5lGpoIFIqe5N2b4IohsCq1xGZzY0kEHlrTMyLoDHjIhDCeBsQfeVYkfeK469KsK41YwiJzlYSHtX3Jy10BT)
 
+<img width="1216" alt="Image" src="https://github.com/user-attachments/assets/589a10c8-f8eb-4839-bd13-0eab3735ada0" />
 
 
 # 安装教程
