@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Fri, 09 May 2025 01:03:50 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Fri, 09 May 2025 05:42:51 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
 https://one-api.weijiajin.com
 
 ## Chat
@@ -216,7 +216,10 @@ pyautogui.click(clicks=3)&#13;
 联系客服加群（微信号）：`weijiajin-com`
 
 ### 售后邮箱
-`873773108@qq.com`。</description><guid isPermaLink="true">https://weijiajin.com/post/yan-wu-GPT-shi-yong-shuo-ming.html</guid><pubDate>Tue, 19 Nov 2024 20:08:55 +0000</pubDate></item><item><title>MATLAB</title><link>https://weijiajin.com/post/MATLAB.html</link><description># 下载教程
+`873773108@qq.com`。</description><guid isPermaLink="true">https://weijiajin.com/post/yan-wu-GPT-shi-yong-shuo-ming.html</guid><pubDate>Tue, 19 Nov 2024 20:08:55 +0000</pubDate></item><item><title>MATLAB</title><link>https://weijiajin.com/post/MATLAB.html</link><description>&gt; 国际官网地址：[matlab.com](https://matlab.com)
+&gt; 中国官网地址：[matlab.cn](https://matlab.cn)
+
+# 下载教程
 
 **1. 浏览器打开官网下载地址：[https://ww2.mathworks.cn/downloads](https://ww2.mathworks.cn/downloads)，输入正版`Matlab`账号,建议复制粘贴**
 ![输入正版Matlab账号](https://mixfile.weijiajin.com/api/download/02.png?s=50M6fjqonjmtgBqnD7F4Ykb0jtr7SNYMr76Y9sromFxtuSHE7ZFq09evB1MgZFomRZ0HpVp7AfxbEFSj4bDzIdvqzEpr9SVtG4dM6dgTAHA0ZzamgO2FjSc6YF0C0znKWJxHicfiK3UxOXo68UXCLv8PNy1sunGzmxPe9zMRLRqOgT546PI60e2uUyMmFk1w1cLlgFWDEZE5aOtScfPjJhhGFanm02dSoilYOtPJ0ccL54jJJ7FeMYu0tpssJOm02lr4ZVwwrcVpXhIEIelp7jbnu1M0dI1g754SNRXwfLgVntUkfpMJ6h68Qq8SuuMdXvclZf8yPFsGtpGgxXdxGUeOR960nnSRFLjk2EqQXxOyseZXgHTYrZF0RYIrzl6)
