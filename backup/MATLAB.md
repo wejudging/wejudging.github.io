@@ -1,6 +1,6 @@
 > 国际官网地址：[matlab.com](https://matlab.com)
 > 中国官网地址：[matlab.cn](https://matlab.cn)
-
+> 安装教程PDF版本：[https://feelheart.lanzoul.com/ihIVQ2uli3te](https://feelheart.lanzoul.com/ihIVQ2uli3te)
 # 下载教程
 
 **1. 浏览器打开官网下载地址：[https://ww2.mathworks.cn/downloads](https://ww2.mathworks.cn/downloads)，输入正版`Matlab`账号,建议复制粘贴**
@@ -76,6 +76,3 @@
 
 **7.无法与所需的mathworks服务通信5201**
 **[https://blog.csdn.net/cainiaoyizhan2/article/details/135012632](https://blog.csdn.net/cainiaoyizhan2/article/details/135012632)**
-
-**8.离线安装教程PDF版本**
-**[https://feelheart.lanzoul.com/ihIVQ2uli3te](https://feelheart.lanzoul.com/ihIVQ2uli3te)**
