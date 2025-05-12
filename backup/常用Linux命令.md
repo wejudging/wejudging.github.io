@@ -1,5 +1,4 @@
 **SpeedTest**
-
 ```bash
 sudo apt-get install curl
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
@@ -7,16 +6,12 @@ sudo apt-get install speedtest
 ```
 
 **X-UI**
-
 ```bash
 git clone https://github.com/wejudging/x-ui.git
 cd /root/x-ui && docker compose up -d
 ```
 
-
-
 **开启root远程登录**
-
 ```bash
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
