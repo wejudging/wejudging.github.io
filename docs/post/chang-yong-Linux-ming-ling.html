@@ -10,7 +10,24 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="**开启root远程登录2**
+<meta name="description" content="**SpeedTest**
+
+```bash
+sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest
+```
+
+**X-UI**
+
+```bash
+git clone https://github.com/wejudging/x-ui.git
+cd /root/x-ui && docker compose up -d
+```
+
+
+
+**开启root远程登录**
 
 ```bash
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
@@ -157,7 +174,24 @@ wget http://updates-http.cdn-apple.com/2019WinterFCS/fullrestores/041-39257/3212
 ```
 。">
 <meta property="og:title" content="常用Linux命令">
-<meta property="og:description" content="**开启root远程登录2**
+<meta property="og:description" content="**SpeedTest**
+
+```bash
+sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest
+```
+
+**X-UI**
+
+```bash
+git clone https://github.com/wejudging/x-ui.git
+cd /root/x-ui && docker compose up -d
+```
+
+
+
+**开启root远程登录**
 
 ```bash
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
@@ -373,7 +407,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><strong>开启root远程登录2</strong></p>
+<div class="markdown-body" id="postBody"><p><strong>SpeedTest</strong></p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh <span class="pl-k">|</span> sudo bash
+sudo apt-get install speedtest</pre></div>
+<p><strong>X-UI</strong></p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">git clone https://github.com/wejudging/x-ui.git
+<span class="pl-c1">cd</span> /root/x-ui <span class="pl-k">&amp;&amp;</span> docker compose up -d</pre></div>
+<p><strong>开启root远程登录</strong></p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">sed -i <span class="pl-s"><span class="pl-pds">'</span>s/#PermitRootLogin prohibit-password/PermitRootLogin yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
 sed -i <span class="pl-s"><span class="pl-pds">'</span>s/PasswordAuthentication no/PasswordAuthentication yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
 systemctl restart sshd</pre></div>

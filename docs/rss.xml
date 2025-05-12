@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Fri, 09 May 2025 08:45:08 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Mon, 12 May 2025 02:45:25 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
 https://one-api.weijiajin.com
 
 ## Chat
@@ -293,149 +293,166 @@ pyautogui.click(clicks=3)&#13;
 **[https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab](https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab)**
 
 **7.无法与所需的mathworks服务通信5201**
-**[https://blog.csdn.net/cainiaoyizhan2/article/details/135012632](https://blog.csdn.net/cainiaoyizhan2/article/details/135012632)**。</description><guid isPermaLink="true">https://weijiajin.com/post/MATLAB.html</guid><pubDate>Thu, 19 Sep 2024 06:46:25 +0000</pubDate></item><item><title>常用Linux命令</title><link>https://weijiajin.com/post/chang-yong-Linux-ming-ling.html</link><description>**开启root远程登录2**&#13;
-&#13;
-```bash&#13;
-sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config&#13;
-sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config&#13;
-systemctl restart sshd&#13;
-```&#13;
-&#13;
-**官网安装docker**&#13;
-```bash&#13;
-curl -fsSL https://get.docker.com | bash -s docker&#13;
-systemctl start docker&#13;
-systemctl enable docker&#13;
-```&#13;
-&#13;
-**国内安装docker**&#13;
-```bash&#13;
-bash &lt;(curl -sSL https://linuxmirrors.cn/docker.sh)&#13;
-systemctl start docker&#13;
-systemctl enable docker&#13;
-```&#13;
-&#13;
-**BBR-PLUS脚本**&#13;
-```bash&#13;
-bash &lt;(curl -Lso- https://git.io/kernel.sh)&#13;
-```&#13;
-&#13;
-**centos关闭防火墙**&#13;
-```bash&#13;
-systemctl stop firewalld&#13;
-systemctl disable firewalld&#13;
-```&#13;
-&#13;
-**swap**&#13;
-```bash&#13;
-wget https://www.moerats.com/usr/shell/swap.sh &amp;&amp; bash swap.sh&#13;
-azure swap&#13;
-dd if=/dev/zero of=/swapfile count=4096 bs=1M&#13;
-chmod 600 /swapfile&#13;
-mkswap /swapfile&#13;
-swapon /swapfile&#13;
-vi /etc/fstab&#13;
-/swapfile   none    swap    sw    0   0&#13;
-```&#13;
-&#13;
-**myip**&#13;
-```bash&#13;
-ip=$(curl -s http://myip.ipip.net)&#13;
-echo 'My public IP address is: $ip'&#13;
-```&#13;
-&#13;
-**danate**&#13;
-```bash&#13;
-wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh&#13;
-bash install.sh  --port=18888 --user=weijiajin --passwd=weijiajin&#13;
-&#13;
-/etc/init.d/sockd adduser USERNAME PASSWORD&#13;
-sudo sed -i 's/del_uer/del_user/g' /etc/init.d/sockd&#13;
-/etc/init.d/sockd deluser USERNAME&#13;
-bash install.sh --uninstall&#13;
-systemctl enable sockd.service&#13;
-service sockd state&#13;
-/etc/init.d/sockd state&#13;
-```&#13;
-&#13;
-**增加网卡**&#13;
-```bash&#13;
-ifconfig eth0:1 10.0.0.5 up&#13;
-ifconfig eth0:2 10.0.0.6 up&#13;
-```&#13;
-&#13;
-**x-ui**&#13;
-```bash&#13;
-bash &lt;(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)&#13;
-```&#13;
-**重装系统 Debain12**&#13;
-```bash&#13;
-apt install wget -y&#13;
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' &amp;&amp; chmod a+x InstallNET.sh&#13;
-bash InstallNET.sh -debian&#13;
-&#13;
-For Linux: LeitboGi0ro&#13;
-```&#13;
-&#13;
-**debian10安装docker**&#13;
-```bash&#13;
-sudo apt-get update&#13;
-sudo apt-get install \&#13;
-    apt-transport-https \&#13;
-    ca-certificates \&#13;
-    curl \&#13;
-    gnupg2 \&#13;
-    software-properties-common&#13;
-y&#13;
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg&#13;
-echo \ 'deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \&#13;
-  $(lsb_release -cs) stable' | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null&#13;
-&#13;
-sudo apt-get update&#13;
-sudo apt-get install docker-ce docker-ce-cli containerd.io&#13;
-y&#13;
-git clone https://github.com/wejudging/x-ui.git&#13;
-cd x-ui&#13;
-docker compose up -d&#13;
-```&#13;
-&#13;
-**重装系统Debain12**&#13;
-```&#13;
-curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_&#13;
-bash reinstall.sh debian 12 --password password&#13;
-```&#13;
-&#13;
-**下载新的yum源**&#13;
-```&#13;
-wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos6_base.repo&#13;
-```&#13;
-&#13;
-**清除yum缓存并更新**&#13;
-```&#13;
-yum clean all&#13;
-yum makecache&#13;
-```&#13;
-&#13;
-**debian10安装x-ui**&#13;
-```&#13;
-commands = [&#13;
-        'sudo apt-get update',&#13;
-        'sudo apt-get install apt-transport-https -y',&#13;
-        'sudo apt-get install ca-certificates -y',&#13;
-        'sudo apt-get install curl -y',&#13;
-        'sudo apt-get install gnupg2 -y',&#13;
-        'sudo apt-get install software-properties-common -y',&#13;
-        'curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg',&#13;
-        'echo \'deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable\' | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null',&#13;
-        'sudo apt-get update',&#13;
-        'sudo apt-get install docker-ce docker-ce-cli containerd.io -y',&#13;
-        'git clone https://github.com/wejudging/x-ui.git',&#13;
-        'cd /root/x-ui &amp;&amp; docker compose up -d'&#13;
-    ]&#13;
-```&#13;
-&#13;
-**测速**&#13;
-```&#13;
-wget http://updates-http.cdn-apple.com/2019WinterFCS/fullrestores/041-39257/32129B6C-292C-11E9-9E72-4511412B0A59/iPhone_4.7_12.1.4_16D57_Restore.ipsw&#13;
-```&#13;
+**[https://blog.csdn.net/cainiaoyizhan2/article/details/135012632](https://blog.csdn.net/cainiaoyizhan2/article/details/135012632)**。</description><guid isPermaLink="true">https://weijiajin.com/post/MATLAB.html</guid><pubDate>Thu, 19 Sep 2024 06:46:25 +0000</pubDate></item><item><title>常用Linux命令</title><link>https://weijiajin.com/post/chang-yong-Linux-ming-ling.html</link><description>**SpeedTest**
+
+```bash
+sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest
+```
+
+**X-UI**
+
+```bash
+git clone https://github.com/wejudging/x-ui.git
+cd /root/x-ui &amp;&amp; docker compose up -d
+```
+
+
+
+**开启root远程登录**
+
+```bash
+sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+systemctl restart sshd
+```
+
+**官网安装docker**
+```bash
+curl -fsSL https://get.docker.com | bash -s docker
+systemctl start docker
+systemctl enable docker
+```
+
+**国内安装docker**
+```bash
+bash &lt;(curl -sSL https://linuxmirrors.cn/docker.sh)
+systemctl start docker
+systemctl enable docker
+```
+
+**BBR-PLUS脚本**
+```bash
+bash &lt;(curl -Lso- https://git.io/kernel.sh)
+```
+
+**centos关闭防火墙**
+```bash
+systemctl stop firewalld
+systemctl disable firewalld
+```
+
+**swap**
+```bash
+wget https://www.moerats.com/usr/shell/swap.sh &amp;&amp; bash swap.sh
+azure swap
+dd if=/dev/zero of=/swapfile count=4096 bs=1M
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
+vi /etc/fstab
+/swapfile   none    swap    sw    0   0
+```
+
+**myip**
+```bash
+ip=$(curl -s http://myip.ipip.net)
+echo 'My public IP address is: $ip'
+```
+
+**danate**
+```bash
+wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
+bash install.sh  --port=18888 --user=weijiajin --passwd=weijiajin
+
+/etc/init.d/sockd adduser USERNAME PASSWORD
+sudo sed -i 's/del_uer/del_user/g' /etc/init.d/sockd
+/etc/init.d/sockd deluser USERNAME
+bash install.sh --uninstall
+systemctl enable sockd.service
+service sockd state
+/etc/init.d/sockd state
+```
+
+**增加网卡**
+```bash
+ifconfig eth0:1 10.0.0.5 up
+ifconfig eth0:2 10.0.0.6 up
+```
+
+**x-ui**
+```bash
+bash &lt;(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+**重装系统 Debain12**
+```bash
+apt install wget -y
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' &amp;&amp; chmod a+x InstallNET.sh
+bash InstallNET.sh -debian
+
+For Linux: LeitboGi0ro
+```
+
+**debian10安装docker**
+```bash
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg2 \
+    software-properties-common
+y
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo \ 'deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable' | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+y
+git clone https://github.com/wejudging/x-ui.git
+cd x-ui
+docker compose up -d
+```
+
+**重装系统Debain12**
+```
+curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
+bash reinstall.sh debian 12 --password password
+```
+
+**下载新的yum源**
+```
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos6_base.repo
+```
+
+**清除yum缓存并更新**
+```
+yum clean all
+yum makecache
+```
+
+**debian10安装x-ui**
+```
+commands = [
+        'sudo apt-get update',
+        'sudo apt-get install apt-transport-https -y',
+        'sudo apt-get install ca-certificates -y',
+        'sudo apt-get install curl -y',
+        'sudo apt-get install gnupg2 -y',
+        'sudo apt-get install software-properties-common -y',
+        'curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg',
+        'echo \'deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable\' | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null',
+        'sudo apt-get update',
+        'sudo apt-get install docker-ce docker-ce-cli containerd.io -y',
+        'git clone https://github.com/wejudging/x-ui.git',
+        'cd /root/x-ui &amp;&amp; docker compose up -d'
+    ]
+```
+
+**测速**
+```
+wget http://updates-http.cdn-apple.com/2019WinterFCS/fullrestores/041-39257/32129B6C-292C-11E9-9E72-4511412B0A59/iPhone_4.7_12.1.4_16D57_Restore.ipsw
+```
 。</description><guid isPermaLink="true">https://weijiajin.com/post/chang-yong-Linux-ming-ling.html</guid><pubDate>Mon, 08 Jul 2024 17:00:29 +0000</pubDate></item></channel></rss>
