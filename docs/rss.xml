@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Mon, 12 May 2025 02:46:00 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>weijiajin.com</title><link>https://weijiajin.com</link><description>你好哇，祝你今天愉快。</description><copyright>weijiajin.com</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://weijiajin.com/logo.jpg</url><title>avatar</title><link>https://weijiajin.com</link></image><lastBuildDate>Wed, 28 May 2025 03:16:06 +0000</lastBuildDate><managingEditor>weijiajin.com</managingEditor><ttl>60</ttl><webMaster>weijiajin.com</webMaster><item><title>LLM</title><link>https://weijiajin.com/post/LLM.html</link><description>## API接口
 https://one-api.weijiajin.com
 
 ## Chat
@@ -293,7 +293,12 @@ pyautogui.click(clicks=3)&#13;
 **[https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab](https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab)**
 
 **7.无法与所需的mathworks服务通信5201**
-**[https://blog.csdn.net/cainiaoyizhan2/article/details/135012632](https://blog.csdn.net/cainiaoyizhan2/article/details/135012632)**。</description><guid isPermaLink="true">https://weijiajin.com/post/MATLAB.html</guid><pubDate>Thu, 19 Sep 2024 06:46:25 +0000</pubDate></item><item><title>常用Linux命令</title><link>https://weijiajin.com/post/chang-yong-Linux-ming-ling.html</link><description>**SpeedTest**
+**[https://blog.csdn.net/cainiaoyizhan2/article/details/135012632](https://blog.csdn.net/cainiaoyizhan2/article/details/135012632)**。</description><guid isPermaLink="true">https://weijiajin.com/post/MATLAB.html</guid><pubDate>Thu, 19 Sep 2024 06:46:25 +0000</pubDate></item><item><title>常用Linux命令</title><link>https://weijiajin.com/post/chang-yong-Linux-ming-ling.html</link><description>**[V2bX文档](https://v2bx.v-50.me/v2bx/)**
+```bash
+wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh &amp;&amp; bash install.sh
+```
+
+**SpeedTest**
 ```bash
 sudo apt-get install curl
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash

@@ -1,3 +1,8 @@
+**[V2bX文档](https://v2bx.v-50.me/v2bx/)**
+```bash
+wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh && bash install.sh
+```
+
 **SpeedTest**
 ```bash
 sudo apt-get install curl
