@@ -1,7 +1,8 @@
 ### 安装 QEMU
 ```
 sudo apt-get update
-sudo apt-get install qemu qemu-user qemu-user-static
+sudo apt-get install qemu-user 
+sudo apt-get install qemu-user-static
 ```
 
 ### 安装 binfmt-support
