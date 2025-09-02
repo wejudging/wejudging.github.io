@@ -1,5 +1,6 @@
 ### 安装 QEMU
 ```
+apt install sudo
 sudo apt-get update
 sudo apt-get install qemu-user 
 sudo apt-get install qemu-user-static
