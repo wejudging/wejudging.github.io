@@ -18,4 +18,4 @@
 6. <a href="https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab" target="_blank" rel="noopener noreferrer">反激活 MATLAB</a>
 7. <a href="https://blog.csdn.net/cainiaoyizhan2/article/details/135012632" target="_blank" rel="noopener noreferrer">无法与所需的 MathWorks 服务通信（错误 5201）</a>
 
-**若问题仍未解决，请记录完整报错信息、MATLAB 版本及操作系统版本，联系客服以便进一步排查！！！**
+**若Matlab安装问题仍未解决，请记录完整报错信息、MATLAB 版本及操作系统版本，联系客服以便进一步排查！！！**
