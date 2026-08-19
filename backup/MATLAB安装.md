@@ -1,13 +1,10 @@
-# 图文安装教程
+## 图文安装教程
 
-> [点击打开 👉 Windows 系统](https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/True/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%2Fpublic%2FMatlab%20%E6%95%99%E7%A8%8B%2FWindows%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf)
+> [Windows 系统](https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/True/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%2Fpublic%2FMatlab%20%E6%95%99%E7%A8%8B%2FWindows%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf)
 
-> [点击打开 👉 MacOS 系统](https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/True/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%2Fpublic%2FMatlab%20%E6%95%99%E7%A8%8B%2FMac%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf)
+> [MacOS 系统](https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/True/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%2Fpublic%2FMatlab%20%E6%95%99%E7%A8%8B%2FMac%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf)
 
-> [点击打开 👉 Linux 系统](https://matlab.cn)
-
-
-# 常用问题
+## 常用问题
 **1. MATLAB安装常见问题及解决方案**
 **[https://eem.cufe.edu.cn/info/1020/2088.htm](https://eem.cufe.edu.cn/info/1020/2088.htm)**
 
