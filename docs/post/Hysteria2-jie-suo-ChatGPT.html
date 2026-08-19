@@ -332,6 +332,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 </script>
-<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>
+<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script><script>document.querySelectorAll('#postBody a[href]').forEach(a=>{const h=a.getAttribute('href').trim();if(!h||h.startsWith('#'))return;try{const u=new URL(h,location.href);if(u.protocol==='http:'||u.protocol==='https:'){a.target='_blank';a.relList.add('noopener','noreferrer')}}catch(e){}});</script>
 
 </html>
