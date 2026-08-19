@@ -4,8 +4,8 @@
 
 | 操作系统 | 安装教程 |
 | :---: | :---: |
-| Windows | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/true/yijukeji%2FMatlab%E6%95%99%E7%A8%8B%2FWindows%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf?cloudname=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98&membership=%E8%B6%85%E7%BA%A7%E4%BC%9A%E5%91%98" target="_blank" rel="noopener noreferrer">查看 Windows 安装教程</a> |
-| macOS | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/true/yijukeji%2FMatlab%E6%95%99%E7%A8%8B%2FMac%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf?cloudname=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98&membership=%E8%B6%85%E7%BA%A7%E4%BC%9A%E5%91%98" target="_blank" rel="noopener noreferrer">查看 macOS 安装教程</a> |
+| Windows | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/true/yijukeji%2FMatlab%E6%95%99%E7%A8%8B%2FWindows%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener noreferrer">查看 Windows 安装教程</a> |
+| macOS | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/true/yijukeji%2FMatlab%E6%95%99%E7%A8%8B%2FMac%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener noreferrer">查看 macOS 安装教程</a> |
 | Linux | 查看 Linux 安装教程 |
 
 ## 常用问题
