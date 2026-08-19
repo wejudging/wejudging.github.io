@@ -12,7 +12,7 @@
 
 ## 常用问题
 
-1. [MATLAB 安装常见问题及解决方案](https://eem.cufe.edu.cn/info/1020/2088.htm)
+1. [MATLAB 安装常见问题及解决方案](https://ms.ccnu.edu.cn/help/detail/30)
 2. [更改 MathWorks 账户密码](https://ww2.mathworks.cn/mwaccount/profiles/password/change)
 3. [设置双重验证](https://ww2.mathworks.cn/mwaccount/profiles/security/two_step_verification)
 4. [使用 MATLAB Online](https://matlab.mathworks.com/)
