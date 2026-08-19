@@ -4,8 +4,8 @@
 
 | 操作系统 | 安装教程 |
 | :---: | :---: |
-| Windows | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/True/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%2Fpublic%2FMatlab%20%E6%95%99%E7%A8%8B%2FWindows%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener noreferrer">查看 Windows 安装教程</a> |
-| macOS | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/True/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%2Fpublic%2FMatlab%20%E6%95%99%E7%A8%8B%2FMac%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener noreferrer">查看 macOS 安装教程</a> |
+| Windows | <a href="https://115.hohai.eu.org/d/%E5%B1%B9%E7%9F%A9/Windows%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf?sign=XH3tIGCWqL5Xi7Td8-hDzCTa89sPIjXC7wjB36sIXVw=:0" target="_blank" rel="noopener noreferrer">查看 Windows 安装教程</a> |
+| macOS | <a href="https://115.hohai.eu.org/d/%E5%B1%B9%E7%9F%A9/Mac%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf?sign=VqZMioK15YRRQBzELBAt291eDZOii4riv7gTwwg4iJQ=:0" target="_blank" rel="noopener noreferrer">查看 macOS 安装教程</a> |
 | Linux | 查看 Linux 安装教程 |
 
 ## 常用问题
