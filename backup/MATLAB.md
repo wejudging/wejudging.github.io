@@ -6,7 +6,8 @@
 | :---: | :---: |
 | Windows | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/true/yijukeji%2FMatlab%E6%95%99%E7%A8%8B%2FWindows%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener noreferrer">查看 Windows 安装教程</a> |
 | macOS | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/true/yijukeji%2FMatlab%E6%95%99%E7%A8%8B%2FMacOS%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener noreferrer">查看 macOS 安装教程</a> |
-| Linux | 查看 Linux 安装教程（待更） |
+| Linux | <a href="https://drive.hohai.eu.org/static/https/drive.hohai.eu.org/true/yijukeji%2FMatlab%E6%95%99%E7%A8%8B%2FLinux%20Desktop%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener noreferrer">查看 Linux 安装教程</a> |
+
 
 ## 常用问题
 
