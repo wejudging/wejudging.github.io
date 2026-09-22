@@ -18,7 +18,7 @@
 5. <a href="https://ww2.mathworks.cn/matlabcentral/answers/130613-internet" target="_blank" rel="noopener noreferrer">离线安装 MATLAB</a>
 6. <a href="https://ww2.mathworks.cn/matlabcentral/answers/116696-matlab" target="_blank" rel="noopener noreferrer">反激活 MATLAB</a>
 7. <a href="https://www.mathworks.com/matlabcentral/answers/96751" target="_blank" rel="noopener noreferrer">更新 MATLAB 离线许可文件</a>
-8. <a href="https://ww2.mathworks.cn/help/matlab/matlab_env/matlab-desktop-language.html" target="_blank" rel="noopener noreferrer">MATLAB 软件切换为中/英文界面</a>
+8. <a href="https://zhuanlan.zhihu.com/p/615482613" target="_blank" rel="noopener noreferrer">MATLAB 软件切换为中/英文界面</a>
 9. <a href="https://blog.csdn.net/cainiaoyizhan2/article/details/135012632" target="_blank" rel="noopener noreferrer">无法与所需的 MathWorks 服务通信（错误 5201）</a>
 
 **若 <mark>安装问题</mark> 仍未解决，请记录完整报错信息、MATLAB 版本及操作系统版本，<mark>联系客服</mark> 以便进一步排查！！！**
