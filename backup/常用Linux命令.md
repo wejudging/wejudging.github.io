@@ -12,8 +12,9 @@ sudo apt-get install speedtest
 
 **X-UI**
 ```bash
+cd /root/docker
 git clone https://github.com/wejudging/x-ui.git
-cd /root/x-ui && docker compose up -d
+cd /root/docker/x-ui && docker compose up -d
 ```
 
 **开启root远程登录**

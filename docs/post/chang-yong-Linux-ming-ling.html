@@ -24,8 +24,9 @@ sudo apt-get install speedtest
 
 **X-UI**
 ```bash
+cd /root/docker
 git clone https://github.com/wejudging/x-ui.git
-cd /root/x-ui && docker compose up -d
+cd /root/docker/x-ui && docker compose up -d
 ```
 
 **开启root远程登录**
@@ -188,8 +189,9 @@ sudo apt-get install speedtest
 
 **X-UI**
 ```bash
+cd /root/docker
 git clone https://github.com/wejudging/x-ui.git
-cd /root/x-ui && docker compose up -d
+cd /root/docker/x-ui && docker compose up -d
 ```
 
 **开启root远程登录**
@@ -414,8 +416,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh <span class="pl-k">|</span> sudo bash
 sudo apt-get install speedtest</pre></div>
 <p><strong>X-UI</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">git clone https://github.com/wejudging/x-ui.git
-<span class="pl-c1">cd</span> /root/x-ui <span class="pl-k">&amp;&amp;</span> docker compose up -d</pre></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c1">cd</span> /root/docker
+git clone https://github.com/wejudging/x-ui.git
+<span class="pl-c1">cd</span> /root/docker/x-ui <span class="pl-k">&amp;&amp;</span> docker compose up -d</pre></div>
 <p><strong>开启root远程登录</strong></p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">sed -i <span class="pl-s"><span class="pl-pds">'</span>s/#PermitRootLogin prohibit-password/PermitRootLogin yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
 sed -i <span class="pl-s"><span class="pl-pds">'</span>s/PasswordAuthentication no/PasswordAuthentication yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
