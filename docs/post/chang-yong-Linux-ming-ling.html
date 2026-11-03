@@ -343,7 +343,7 @@ wget http://updates-http.cdn-apple.com/2019WinterFCS/fullrestores/041-39257/3212
 <meta property="og:url" content="https://weijiajin.com/post/chang-yong-Linux-ming-ling.html">
 <meta property="og:image" content="https://weijiajin.com/logo.jpg">
 <title>常用Linux命令</title>
-<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+
 
 
 </head>
@@ -410,68 +410,82 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p><strong><a href="https://v2bx.v-50.me/v2bx/" rel="nofollow">V2bX文档</a></strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh <span class="pl-k">&amp;&amp;</span> bash install.sh</pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh &amp;&amp; bash install.sh
+</code></pre>
 <p><strong>SpeedTest</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">sudo apt-get install curl
-curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh <span class="pl-k">|</span> sudo bash
-sudo apt-get install speedtest</pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest
+</code></pre>
 <p><strong>X-UI</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c1">cd</span> /root/docker
+<pre lang="bash" class="notranslate"><code class="notranslate">cd /root/docker
 git clone https://github.com/wejudging/x-ui.git
-<span class="pl-c1">cd</span> /root/docker/x-ui <span class="pl-k">&amp;&amp;</span> docker compose up -d</pre></div>
+cd /root/docker/x-ui &amp;&amp; docker compose up -d
+</code></pre>
 <p><strong>开启root远程登录</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">sed -i <span class="pl-s"><span class="pl-pds">'</span>s/#PermitRootLogin prohibit-password/PermitRootLogin yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
-sed -i <span class="pl-s"><span class="pl-pds">'</span>s/PasswordAuthentication no/PasswordAuthentication yes/<span class="pl-pds">'</span></span> /etc/ssh/sshd_config
-systemctl restart sshd</pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+systemctl restart sshd
+</code></pre>
 <p><strong>官网安装docker</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">curl -fsSL https://get.docker.com <span class="pl-k">|</span> bash -s docker
+<pre lang="bash" class="notranslate"><code class="notranslate">curl -fsSL https://get.docker.com | bash -s docker
 systemctl start docker
-systemctl <span class="pl-c1">enable</span> docker</pre></div>
+systemctl enable docker
+</code></pre>
 <p><strong>国内安装docker</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -sSL https://linuxmirrors.cn/docker.sh<span class="pl-pds">)</span></span>
+<pre lang="bash" class="notranslate"><code class="notranslate">bash &lt;(curl -sSL https://linuxmirrors.cn/docker.sh)
 systemctl start docker
-systemctl <span class="pl-c1">enable</span> docker</pre></div>
+systemctl enable docker
+</code></pre>
 <p><strong>BBR-PLUS脚本</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -Lso- https://git.io/kernel.sh<span class="pl-pds">)</span></span></pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">bash &lt;(curl -Lso- https://git.io/kernel.sh)
+</code></pre>
 <p><strong>centos关闭防火墙</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">systemctl stop firewalld
-systemctl disable firewalld</pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">systemctl stop firewalld
+systemctl disable firewalld
+</code></pre>
 <p><strong>swap</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">wget https://www.moerats.com/usr/shell/swap.sh <span class="pl-k">&amp;&amp;</span> bash swap.sh
+<pre lang="bash" class="notranslate"><code class="notranslate">wget https://www.moerats.com/usr/shell/swap.sh &amp;&amp; bash swap.sh
 azure swap
 dd if=/dev/zero of=/swapfile count=4096 bs=1M
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 vi /etc/fstab
-/swapfile   none    swap    sw    0   0</pre></div>
+/swapfile   none    swap    sw    0   0
+</code></pre>
 <p><strong>myip</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">ip=<span class="pl-s"><span class="pl-pds">$(</span>curl -s http://myip.ipip.net<span class="pl-pds">)</span></span>
-<span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>My public IP address is: <span class="pl-smi">$ip</span><span class="pl-pds">"</span></span></pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">ip=$(curl -s http://myip.ipip.net)
+echo "My public IP address is: $ip"
+</code></pre>
 <p><strong>danate</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
+<pre lang="bash" class="notranslate"><code class="notranslate">wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
 bash install.sh  --port=18888 --user=weijiajin --passwd=weijiajin
 
 /etc/init.d/sockd adduser USERNAME PASSWORD
-sudo sed -i <span class="pl-s"><span class="pl-pds">'</span>s/del_uer/del_user/g<span class="pl-pds">'</span></span> /etc/init.d/sockd
+sudo sed -i 's/del_uer/del_user/g' /etc/init.d/sockd
 /etc/init.d/sockd deluser USERNAME
 bash install.sh --uninstall
-systemctl <span class="pl-c1">enable</span> sockd.service
+systemctl enable sockd.service
 service sockd state
-/etc/init.d/sockd state</pre></div>
+/etc/init.d/sockd state
+</code></pre>
 <p><strong>增加网卡</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">ifconfig eth0:1 10.0.0.5 up
-ifconfig eth0:2 10.0.0.6 up</pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">ifconfig eth0:1 10.0.0.5 up
+ifconfig eth0:2 10.0.0.6 up
+</code></pre>
 <p><strong>x-ui</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">bash <span class="pl-s"><span class="pl-pds">&lt;(</span>curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh<span class="pl-pds">)</span></span></pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">bash &lt;(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+</code></pre>
 <p><strong>重装系统 Debain12</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">apt install wget -y
-wget --no-check-certificate -qO InstallNET.sh <span class="pl-s"><span class="pl-pds">'</span>https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh<span class="pl-pds">'</span></span> <span class="pl-k">&amp;&amp;</span> chmod a+x InstallNET.sh
+<pre lang="bash" class="notranslate"><code class="notranslate">apt install wget -y
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' &amp;&amp; chmod a+x InstallNET.sh
 bash InstallNET.sh -debian
 
-For Linux: LeitboGi0ro</pre></div>
+For Linux: LeitboGi0ro
+</code></pre>
 <p><strong>debian10安装docker</strong></p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">sudo apt-get update
+<pre lang="bash" class="notranslate"><code class="notranslate">sudo apt-get update
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
@@ -479,16 +493,17 @@ sudo apt-get install \
     gnupg2 \
     software-properties-common
 y
-curl -fsSL https://download.docker.com/linux/debian/gpg <span class="pl-k">|</span> sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-<span class="pl-c1">echo</span> <span class="pl-cce">\ </span><span class="pl-s"><span class="pl-pds">"</span>deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian <span class="pl-cce">\</span></span>
-<span class="pl-s">  <span class="pl-s"><span class="pl-pds">$(</span>lsb_release -cs<span class="pl-pds">)</span></span> stable<span class="pl-pds">"</span></span> <span class="pl-k">|</span> sudo tee /etc/apt/sources.list.d/docker.list <span class="pl-k">&gt;</span> /dev/null
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo \ "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
 
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 y
 git clone https://github.com/wejudging/x-ui.git
-<span class="pl-c1">cd</span> x-ui
-docker compose up -d</pre></div>
+cd x-ui
+docker compose up -d
+</code></pre>
 <p><strong>重装系统Debain12</strong></p>
 <pre class="notranslate"><code class="notranslate">curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
 bash reinstall.sh debian 12 --password password
